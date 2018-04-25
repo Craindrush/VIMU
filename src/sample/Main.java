@@ -11,7 +11,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("view/menu.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("view/ranking.fxml"));
         primaryStage.setResizable(false);
         primaryStage.initStyle(StageStyle.UNDECORATED);
 

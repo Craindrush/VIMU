@@ -10,26 +10,26 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1280.0" style="-fx-background-color: #455A64 #455A64;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1280.0" style="-fx-background-color: #455A64 #455A64;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.RegistroController">
    <children>
-      <AnchorPane fx:id="back" layoutY="290.0" prefHeight="477.0" prefWidth="1280.0" style="-fx-background-color: white;">
+      <AnchorPane layoutY="290.0" prefHeight="477.0" prefWidth="1280.0" style="-fx-background-color: white;">
          <children>
             <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="165.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../assets/registroJugadores/añadirjugador.png" />
                </image>
             </ImageView>
-            <Label fx:id="tituloJugador1" layoutX="359.0" layoutY="35.0" text="JUGADOR 1">
+            <Label fx:id="player1Tilte" layoutX="359.0" layoutY="35.0" text="JUGADOR 1">
                <font>
                   <Font name="Roboto Bold" size="30.0" />
                </font>
             </Label>
-            <JFXTextField fx:id="jugador1TextField" focusColor="#303f9f" layoutX="279.0" layoutY="125.0" prefHeight="25.0" prefWidth="306.0" promptText="Nombre Jugador 1">
+            <JFXTextField fx:id="player1TextField" focusColor="#303f9f" layoutX="279.0" layoutY="125.0" prefHeight="25.0" prefWidth="306.0" promptText="Nombre Jugador 1">
                <font>
                   <Font name="Roboto Light" size="16.0" />
                </font>
             </JFXTextField>
-            <JFXDatePicker fx:id="jugador1Date" defaultColor="#303f9f" layoutX="278.0" layoutY="222.0" prefHeight="28.0" prefWidth="327.0" promptText="Fecha de Nacimiento (DD/MM/AAAA)" />
+            <JFXDatePicker fx:id="player1Birthday" defaultColor="#303f9f" layoutX="278.0" layoutY="222.0" prefHeight="28.0" prefWidth="327.0" promptText="Fecha de Nacimiento (DD/MM/AAAA)" />
             <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="169.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../assets/registroJugadores/cumpleaños.png" />
@@ -40,12 +40,12 @@
                   <Image url="@../assets/registroJugadores/genre.png" />
                </image>
             </ImageView>
-            <JFXRadioButton fx:id="jugador1Hombre" layoutX="293.0" layoutY="310.0" text="Hombre">
+            <JFXRadioButton fx:id="player1Man" layoutX="293.0" layoutY="310.0" text="Hombre">
                <font>
                   <Font name="Roboto Regular" size="18.0" />
                </font>
             </JFXRadioButton>
-            <JFXRadioButton fx:id="Jugador1Mujer" layoutX="438.0" layoutY="310.0" text="Mujer">
+            <JFXRadioButton fx:id="player1Woman" layoutX="438.0" layoutY="310.0" text="Mujer">
                <font>
                   <Font name="Roboto Regular" size="18.0" />
                </font>
@@ -55,17 +55,17 @@
                   <Image url="@../assets/registroJugadores/añadirjugador.png" />
                </image>
             </ImageView>
-            <Label fx:id="tituloJugador11" layoutX="880.0" layoutY="35.0" text="JUGADOR 2">
+            <Label fx:id="player2Title" layoutX="880.0" layoutY="35.0" text="JUGADOR 2">
                <font>
                   <Font name="Roboto Bold" size="30.0" />
                </font>
             </Label>
-            <JFXTextField fx:id="jugador2TextField" focusColor="#388e3c" layoutX="800.0" layoutY="125.0" prefHeight="25.0" prefWidth="306.0" promptText="Nombre Jugador 1">
+            <JFXTextField fx:id="player2TextField" focusColor="#388e3c" layoutX="800.0" layoutY="125.0" prefHeight="25.0" prefWidth="306.0" promptText="Nombre Jugador 1">
                <font>
                   <Font name="Roboto Light" size="16.0" />
                </font>
             </JFXTextField>
-            <JFXDatePicker fx:id="jugador2Date" defaultColor="#388e3c" layoutX="799.0" layoutY="222.0" prefHeight="28.0" prefWidth="327.0" promptText="Fecha de Nacimiento (DD/MM/AAAA)" />
+            <JFXDatePicker fx:id="player2Birthday" defaultColor="#388e3c" layoutX="799.0" layoutY="222.0" prefHeight="28.0" prefWidth="327.0" promptText="Fecha de Nacimiento (DD/MM/AAAA)" />
             <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="690.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../assets/registroJugadores/cumpleaños.png" />
@@ -76,17 +76,17 @@
                   <Image url="@../assets/registroJugadores/genre.png" />
                </image>
             </ImageView>
-            <JFXRadioButton fx:id="jugador2Hombre" layoutX="814.0" layoutY="310.0" text="Hombre">
+            <JFXRadioButton fx:id="player2Man" layoutX="814.0" layoutY="310.0" text="Hombre">
                <font>
                   <Font name="Roboto Regular" size="18.0" />
                </font>
             </JFXRadioButton>
-            <JFXRadioButton fx:id="Jugador2Mujer" layoutX="959.0" layoutY="310.0" text="Mujer">
+            <JFXRadioButton fx:id="player2Woman" layoutX="959.0" layoutY="310.0" text="Mujer">
                <font>
                   <Font name="Roboto Regular" size="18.0" />
                </font>
             </JFXRadioButton>
-            <JFXButton layoutX="518.0" layoutY="387.0" ripplerFill="WHITE" style="-fx-background-color: #FF5252;" text="COMENZAR LA PARTIDA" textFill="WHITE">
+            <JFXButton fx:id="playButton" layoutX="518.0" layoutY="387.0" ripplerFill="WHITE" style="-fx-background-color: #FF5252;" text="COMENZAR LA PARTIDA" textFill="WHITE">
                <font>
                   <Font name="Roboto Bold" size="22.0" />
                </font>
@@ -103,17 +103,17 @@
             <Font name="Roboto Light" size="29.0" />
          </font>
       </Label>
-      <ImageView fx:id="minimize" fitHeight="45.0" fitWidth="45.0" layoutX="1180.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="minimize" fitHeight="45.0" fitWidth="45.0" layoutX="1180.0" layoutY="18.0" onMouseClicked="#minimizeProgram" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../assets/menu/Minimize.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="close" fitHeight="45.0" fitWidth="45.0" layoutX="1227.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="close" fitHeight="45.0" fitWidth="45.0" layoutX="1227.0" layoutY="18.0" onMouseClicked="#closeProgram" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../assets/menu/Close.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="minimize1" fitHeight="45.0" fitWidth="45.0" layoutX="37.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="back" fitHeight="45.0" fitWidth="45.0" layoutX="37.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../assets/registroJugadores/goback.png" />
          </image>

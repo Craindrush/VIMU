@@ -113,7 +113,7 @@
             <Image url="@../assets/menu/Close.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="back" fitHeight="45.0" fitWidth="45.0" layoutX="37.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="back" fitHeight="45.0" fitWidth="45.0" layoutX="37.0" layoutY="18.0" onMouseClicked="#returnView" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../assets/registroJugadores/goback.png" />
          </image>

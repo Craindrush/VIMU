@@ -1,43 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1820fe6-e3ff-45b6-bbf5-940da3bb62b8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sample/controller/RankingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/controller/RegistroController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/controller/SpanishController.java" afterDir="false" />
+    <list default="true" id="f1820fe6-e3ff-45b6-bbf5-940da3bb62b8" name="Default" comment="Controllers creados para todas las views. Imagenes de close y minimize ya funcionando.">
+      <change afterPath="$PROJECT_DIR$/src/sample/assets/menu/Chill.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/assets/menu/badge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/assets/menu/intro.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/assets/menu/ranking.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/assets/ranking/homes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/view/howToGeo.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/view/howToMath.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/view/howToSpanish.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/VIMU/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VIMU/sample/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/VIMU/sample/controller/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VIMU/sample/assets/registroJugadores/goback.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VIMU/sample/assets/registroJugadores/goback.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VIMU/sample/controller/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VIMU/sample/controller/MenuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VIMU/sample/controller/RegistroController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VIMU/sample/controller/RegistroController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/VIMU/sample/view/menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VIMU/sample/view/menu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VIMU/sample/view/ranking.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VIMU/sample/view/ranking.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/VIMU/sample/view/registro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VIMU/sample/view/registro.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/assets/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/assets/123.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/assets/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/assets/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/assets/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/assets/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/assets/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/assets/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/assets/bonus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/assets/bonuss.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/assets/bronze.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/assets/game_positin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/assets/gamepos.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/assets/gold.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/assets/home.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/assets/home2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/assets/icons8-circled-7-64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/assets/name.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/assets/namne.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/assets/rank.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/assets/silver.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/controller/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/view/High_Scores.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/assets/registroJugadores/goback.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/assets/registroJugadores/goback.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/controller/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/controller/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/controller/RegistroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/controller/RegistroController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/view/menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/view/menu.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/view/ranking.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/view/ranking.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/view/registro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/view/registro.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/view/spanishquiz.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/view/spanishquiz.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,11 +36,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
+            <state relative-caret-position="187">
+              <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpanishController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/controller/SpanishController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegistroController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/controller/RegistroController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="100" column="47" selection-start-line="100" selection-start-column="47" selection-end-line="100" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MenuController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sample/controller/MenuController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,8 +86,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -73,9 +96,16 @@
       <find>multid</find>
       <find>multi</find>
       <find>MenuController</find>
+      <find>mathStage</find>
+      <find>home</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Omar Osuna &lt;omar.alonso.osuna.angulo@uabc.edu.mx&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -83,16 +113,19 @@
       <list>
         <option value="$PROJECT_DIR$/src/sample/view/Signup.fxml" />
         <option value="$PROJECT_DIR$/src/sample/controller/RegistryController.java" />
-        <option value="$PROJECT_DIR$/src/sample/view/menu.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/controller/MenuController.java" />
         <option value="$PROJECT_DIR$/src/sample/controller/RankingContoller.java" />
-        <option value="$PROJECT_DIR$/src/sample/view/ranking.fxml" />
         <option value="$PROJECT_DIR$/src/sample/view/registro.fxml" />
         <option value="$PROJECT_DIR$/src/sample/view/spanishquiz.fxml" />
         <option value="$PROJECT_DIR$/src/sample/controller/RankingController.java" />
-        <option value="$PROJECT_DIR$/src/sample/controller/RegistroController.java" />
         <option value="$PROJECT_DIR$/src/sample/controller/SpanishController.java" />
+        <option value="$PROJECT_DIR$/src/sample/view/menu.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/view/howToSpanish.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/view/howToGeo.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/view/howToMath.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/view/ranking.fxml" />
         <option value="$PROJECT_DIR$/src/sample/Main.java" />
+        <option value="$PROJECT_DIR$/src/sample/controller/MenuController.java" />
+        <option value="$PROJECT_DIR$/src/sample/controller/RegistroController.java" />
       </list>
     </option>
   </component>
@@ -107,7 +140,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1905" />
-    <option name="width" value="1948" />
+    <option name="width" value="1950" />
     <option name="height" value="2075" />
   </component>
   <component name="ProjectView">
@@ -115,6 +148,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,6 +173,38 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VIMU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIMU" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VIMU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIMU" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="quizEspañol" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VIMU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIMU" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="ranking" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VIMU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIMU" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="registroJugadores" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="VIMU" type="b2602c69:ProjectViewProjectNode" />
@@ -171,9 +237,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -188,9 +253,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\omar9\IdeaProjects\VIMU\src\sample\assets\registroJugadores" />
+      <recent name="C:\Users\omar9\IdeaProjects\VIMU\src\sample\assets\menu" />
       <recent name="C:\Users\omar9\IdeaProjects\VIMU\src\sample\assets\ranking" />
       <recent name="C:\Users\omar9\IdeaProjects\VIMU\src\sample\assets" />
-      <recent name="C:\Users\omar9\IdeaProjects\VIMU\src\sample\assets\registroJugadores" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\omar9\IdeaProjects\VIMU\src\sample\assets\ranking" />
@@ -282,45 +348,58 @@
       <workItem from="1524678075086" duration="164000" />
       <workItem from="1524760287957" duration="1688000" />
       <workItem from="1525060124982" duration="3056000" />
-      <workItem from="1525073612086" duration="3868000" />
+      <workItem from="1525073612086" duration="4401000" />
+      <workItem from="1525146727509" duration="81000" />
+      <workItem from="1525147114245" duration="9701000" />
+      <workItem from="1525157173823" duration="873000" />
+      <workItem from="1525202226969" duration="2228000" />
+      <workItem from="1525274224376" duration="303000" />
     </task>
+    <task id="LOCAL-00001" summary="Controllers creados para todas las views. Imagenes de close y minimize ya funcionando.">
+      <created>1525077660052</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1525077660052</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19486000" />
+    <option name="totallyTimeSpent" value="33205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32962447" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Messages" order="6" sideWeight="0.49967468" weight="0.32506886" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.14187329" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50162655" side_tool="true" weight="0.6928375" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info active="true" anchor="bottom" id="Run" order="11" sideWeight="0.49837345" visible="true" weight="0.23966943" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16135329" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24723487" />
+      <window_info anchor="right" id="Database" order="7" />
       <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991655" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.3991655" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
@@ -330,7 +409,137 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Controllers creados para todas las views. Imagenes de close y minimize ya funcionando." />
+    <option name="LAST_COMMIT_MESSAGE" value="Controllers creados para todas las views. Imagenes de close y minimize ya funcionando." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sample/controller/RegistroController.java</url>
+          <line>101</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controller/SpanishController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controller/MenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="56" column="9" lean-forward="true" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controller/RegistroController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="100" column="47" selection-start-line="100" selection-start-column="47" selection-end-line="100" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controller/MenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="104" column="46" selection-start-line="104" selection-start-column="46" selection-end-line="104" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controller/RegistroController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1887">
+          <caret line="111" column="49" lean-forward="true" selection-start-line="111" selection-start-column="49" selection-end-line="111" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controller/RegistroController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controller/MenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -402,90 +611,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/view/spanishquiz.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="22" column="126" selection-start-line="22" selection-start-column="126" selection-end-line="22" selection-end-column="126" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/view/registro.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="110" column="123" selection-start-line="110" selection-start-column="123" selection-end-line="110" selection-end-column="123" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/view/ranking.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="211" column="123" selection-start-line="211" selection-start-column="123" selection-end-line="211" selection-end-column="123" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/controller/MenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="65" selection-start-line="65" selection-end-line="66" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#970#971#0" expanded="true" />
-            <element signature="e#1012#1013#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/controller/RegistroController.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/controller/RankingController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="524">
-          <caret line="68" column="23" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
+          <caret line="91" column="8" lean-forward="true" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1355#1356#0" expanded="true" />
-            <element signature="e#1385#1386#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/controller/SpanishController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+        <state relative-caret-position="357">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controller/RegistroController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="100" column="47" selection-start-line="100" selection-start-column="47" selection-end-line="100" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/controller/RankingController.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/controller/MenuController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="91" column="8" lean-forward="true" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="23" />
+        <state relative-caret-position="249">
+          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1377#1378#0" expanded="true" />
-            <element signature="e#1404#1405#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/view/menu.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
         </state>
       </provider>
     </entry>

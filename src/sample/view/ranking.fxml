@@ -229,7 +229,7 @@
         </Label>
         <ImageView fx:id="home" fitHeight="45.0" fitWidth="45.0" layoutX="43.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@../assets/ranking/home2.png" />
+                <Image url="@../assets/ranking/homes.png" />
             </image>
         </ImageView>
     </children>

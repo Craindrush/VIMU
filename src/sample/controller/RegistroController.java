@@ -69,8 +69,8 @@ public class RegistroController {
             @Override
             public void handle(ActionEvent event) {
                 if(checkUserField() == true ) {
-                    System.out.println(player1Birthday.getValue().toString());
-//                    playButton.getScene().getWindow().hide();
+                    goQuiz();
+                    playButton.getScene().getWindow().hide();
                 }
             }
         });
@@ -103,6 +103,24 @@ public class RegistroController {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    private void goQuiz () {
+        Stage spanishStage = new Stage();
+
+        Parent root = null;
+        try {
+            root = FXMLLoader.load(getClass().getResource("/sample/view/spanishQuiz.fxml"));
+            Scene scene = new Scene(root);
+            spanishStage.setScene(scene);
+            spanishStage.initStyle(StageStyle.UNDECORATED);
+
+            spanishStage.show();
+            spanishStage.setResizable(false);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
     }
 
     private boolean checkUserField() {

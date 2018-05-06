@@ -1,12 +1,23 @@
 package sample.controller;
 
 import com.jfoenix.controls.JFXButton;
+import javafx.animation.KeyFrame;
+import javafx.animation.Timeline;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
+import javafx.util.Duration;
+
+import java.io.IOException;
 
 public class SpanishController {
 
@@ -20,7 +31,7 @@ public class SpanishController {
     private ImageView close;
 
     @FXML
-    private ImageView back;
+    private ImageView home;
 
     @FXML
     private Text pregunta;
@@ -40,6 +51,31 @@ public class SpanishController {
     @FXML
     private JFXButton opcionA;
 
+    @FXML
+    private Label enunciado;
+
+    @FXML
+    private ImageView timerIcon;
+
+    @FXML
+    private Label timeCount;
+
+    @FXML
+    private Label secondsLabel;
+
+    @FXML
+    void initialize() {
+        //Esta en el mismo thread principal que nuestra aplicacion de javafx
+        Timeline timer = new Timeline(new KeyFrame(Duration.seconds(1), new EventHandler<ActionEvent>() {
+            int i = 44;
+            @Override
+            public void handle(ActionEvent event) {
+                timeCount.setText(Integer.toString(i--));
+            }
+        }));
+        timer.setCycleCount(44);
+        timer.play();
+    }
 
     public void minimizeProgram(MouseEvent mouseEvent) {
         Stage stage = (Stage) minimize.getScene().getWindow();
@@ -48,5 +84,21 @@ public class SpanishController {
 
     public void closeProgram(MouseEvent mouseEvent) {
         System.exit(0);
+    }
+
+    public void returnHome(MouseEvent mouseEvent) {
+        Stage menuStage = new Stage();
+        Parent root = null;
+        try {
+            root = FXMLLoader.load(getClass().getResource("/sample/view/menu.fxml"));
+            Scene scene = new Scene(root);
+            menuStage.setScene(scene);
+            menuStage.initStyle(StageStyle.UNDECORATED);
+
+            menuStage.show();
+            menuStage.setResizable(false);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

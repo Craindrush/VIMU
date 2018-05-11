@@ -12,6 +12,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
@@ -19,7 +20,7 @@ import javafx.util.Duration;
 
 import java.io.IOException;
 
-public class SpanishController {
+public class GeographyController {
 
     @FXML
     private Label tituloMateria;

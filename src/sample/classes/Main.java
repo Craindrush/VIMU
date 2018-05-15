@@ -1,4 +1,4 @@
-package sample;
+package sample.classes;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -13,7 +13,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
 
-        Parent root = FXMLLoader.load(getClass().getResource("view/ranking.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/sample/view/menu.fxml"));
         primaryStage.setResizable(false);
         primaryStage.initStyle(StageStyle.UNDECORATED);
 

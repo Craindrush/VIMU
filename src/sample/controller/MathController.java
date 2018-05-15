@@ -12,7 +12,6 @@ import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
-import javafx.scene.layout.AnchorPane;
 import javafx.scene.shape.Circle;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
@@ -21,7 +20,7 @@ import javafx.util.Duration;
 
 import java.io.IOException;
 
-public class GeographyController {
+public class MathController {
 
     @FXML
     private Label tituloMateria;
@@ -33,10 +32,7 @@ public class GeographyController {
     private ImageView close;
 
     @FXML
-    private Text pregunta;
-
-    @FXML
-    private ImageView imagenPregunta;
+    private ImageView home;
 
     @FXML
     private JFXButton opcionB;
@@ -51,16 +47,13 @@ public class GeographyController {
     private JFXButton opcionA;
 
     @FXML
-    private Label enunciado;
-
-    @FXML
-    private ImageView timerIcon;
+    private Label secondsLabel;
 
     @FXML
     private Label timeCount;
 
     @FXML
-    private Label secondsLabel;
+    private ImageView timerIcon;
 
     @FXML
     private Circle questionStatus1;
@@ -93,11 +86,16 @@ public class GeographyController {
     private Circle questionStatus10;
 
     @FXML
+    private Label operacionProblema;
+
+    @FXML
     void initialize() {
         //Esta en el mismo thread principal que nuestra aplicacion de javafx
-        //Ejemplo de como cambiar el color de nuestro circle: questionStatus1.setFill(javafx.scene.paint.Color.GREEN);
+        operacionProblema.setText("1/2 + 3/4 =");
+
         Timeline timer = new Timeline(new KeyFrame(Duration.seconds(1), new EventHandler<ActionEvent>() {
             int i = 29;
+
             @Override
             public void handle(ActionEvent event) {
                 timeCount.setText(Integer.toString(i--));
@@ -115,5 +113,23 @@ public class GeographyController {
     public void closeProgram(MouseEvent mouseEvent) {
         System.exit(0);
     }
-}
 
+    public void returnHome(MouseEvent mouseEvent) {
+        Stage menuStage = new Stage();
+        Parent root = null;
+        try {
+            root = FXMLLoader.load(getClass().getResource("/sample/view/menu.fxml"));
+            Scene scene = new Scene(root);
+            menuStage.setScene(scene);
+            menuStage.initStyle(StageStyle.UNDECORATED);
+
+            menuStage.show();
+            menuStage.setResizable(false);
+
+            home.getScene().getWindow().hide();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}

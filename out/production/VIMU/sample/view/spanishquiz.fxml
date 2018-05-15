@@ -8,6 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
+<?import javafx.scene.shape.Circle?>
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1280.0" style="-fx-background-color: #FF5722;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.SpanishController">
     <children>
         <Label fx:id="tituloMateria" layoutX="529.0" layoutY="79.0" prefHeight="87.0" prefWidth="326.0" text="ESPAÑOL" textFill="WHITE">
@@ -82,5 +83,15 @@
             <Image url="@../assets/quizEspañol/timer.png" />
          </image>
       </ImageView>
+        <Circle fx:id="questionStatus1" fill="WHITE" layoutX="1227.0" layoutY="153.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="questionStatus2" fill="WHITE" layoutX="1227.0" layoutY="190.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="questionStatus3" fill="WHITE" layoutX="1227.0" layoutY="223.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="questionStatus4" fill="WHITE" layoutX="1227.0" layoutY="260.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="questionStatus5" fill="WHITE" layoutX="1227.0" layoutY="297.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="questionStatus6" fill="WHITE" layoutX="1227.0" layoutY="334.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="questionStatus7" fill="WHITE" layoutX="1227.0" layoutY="373.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="questionStatus8" fill="WHITE" layoutX="1227.0" layoutY="410.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="questionStatus9" fill="WHITE" layoutX="1227.0" layoutY="445.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="questionStatus10" fill="WHITE" layoutX="1227.0" layoutY="482.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
     </children>
 </AnchorPane>

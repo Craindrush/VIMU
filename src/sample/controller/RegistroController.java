@@ -10,6 +10,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
 import javafx.scene.control.ToggleGroup;
 import javafx.scene.image.ImageView;
@@ -71,6 +72,8 @@ public class RegistroController {
                 if(checkUserField() == true ) {
                     goQuiz();
                     playButton.getScene().getWindow().hide();
+                } else {
+                    showAlert();
                 }
             }
         });
@@ -136,5 +139,13 @@ public class RegistroController {
             }
         }
         return false;
+    }
+
+    private void showAlert() {
+        Alert alerta = new Alert(Alert.AlertType.WARNING);
+        alerta.setTitle(null);
+        alerta.setTitle("Campos vacíos");
+        alerta.setContentText("¡No deje espacios vacíos!");
+        alerta.showAndWait();
     }
 }

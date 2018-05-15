@@ -12,6 +12,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
+import javafx.scene.shape.Circle;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
@@ -62,6 +63,36 @@ public class SpanishController {
 
     @FXML
     private Label secondsLabel;
+
+    @FXML
+    private Circle questionStatus1;
+
+    @FXML
+    private Circle questionStatus2;
+
+    @FXML
+    private Circle questionStatus3;
+
+    @FXML
+    private Circle questionStatus4;
+
+    @FXML
+    private Circle questionStatus5;
+
+    @FXML
+    private Circle questionStatus6;
+
+    @FXML
+    private Circle questionStatus7;
+
+    @FXML
+    private Circle questionStatus8;
+
+    @FXML
+    private Circle questionStatus9;
+
+    @FXML
+    private Circle questionStatus10;
 
     @FXML
     void initialize() {

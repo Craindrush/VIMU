@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0"
+            prefWidth="1280.0" style="-fx-background-color: #ffc400;" xmlns="http://javafx.com/javafx/9.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.MathController">
+    <children>
+        <Label fx:id="tituloMateria" alignment="CENTER" contentDisplay="CENTER" layoutX="5.0" layoutY="79.0"
+               prefHeight="105.0" prefWidth="1280.0" text="MATEMÁTICAS" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="Roboto" size="72.0"/>
+            </font>
+        </Label>
+        <ImageView fx:id="minimize" fitHeight="45.0" fitWidth="45.0" layoutX="1180.0" layoutY="18.0"
+                   onMouseClicked="#minimizeProgram" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../assets/menu/Minimize.png"/>
+            </image>
+        </ImageView>
+        <ImageView fx:id="close" fitHeight="45.0" fitWidth="45.0" layoutX="1227.0" layoutY="18.0"
+                   onMouseClicked="#closeProgram" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../assets/menu/Close.png"/>
+            </image>
+        </ImageView>
+        <ImageView fx:id="home" fitHeight="45.0" fitWidth="45.0" layoutX="37.0" layoutY="18.0"
+                   onMouseClicked="#returnHome" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../assets/ranking/homes.png"/>
+            </image>
+        </ImageView>
+        <JFXButton fx:id="opcionB" buttonType="RAISED" focusTraversable="false" layoutX="371.0" layoutY="572.0"
+                   prefHeight="94.0" prefWidth="254.0" ripplerFill="WHITE" style="-fx-background-color: #303f9f;"
+                   text="b) Respuesta b" textAlignment="CENTER" textFill="WHITE" textOverrun="WORD_ELLIPSIS">
+            <font>
+                <Font name="Roboto" size="27.0"/>
+            </font>
+        </JFXButton>
+        <JFXButton fx:id="opcionD" buttonType="RAISED" focusTraversable="false" layoutX="940.0" layoutY="572.0"
+                   prefHeight="94.0" prefWidth="254.0" ripplerFill="WHITE" style="-fx-background-color: #303f9f;"
+                   text="d) Respuesta d" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="Roboto" size="27.0"/>
+            </font>
+        </JFXButton>
+        <JFXButton fx:id="opcionC" buttonType="RAISED" focusTraversable="false" layoutX="654.0" layoutY="572.0"
+                   prefHeight="94.0" prefWidth="254.0" ripplerFill="WHITE" style="-fx-background-color: #303f9f;"
+                   text="c) Respuesta c" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="Roboto" size="27.0"/>
+            </font>
+        </JFXButton>
+        <JFXButton fx:id="opcionA" buttonType="RAISED" focusTraversable="false" layoutX="84.0" layoutY="572.0"
+                   prefHeight="94.0" prefWidth="254.0" ripplerFill="WHITE" style="-fx-background-color: #303f9f;"
+                   text="a) Respuesta a" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="Roboto" size="27.0"/>
+            </font>
+        </JFXButton>
+        <Label fx:id="secondsLabel" layoutX="110.0" layoutY="190.0" prefHeight="34.0" prefWidth="196.0"
+               text="        segundos">
+            <font>
+                <Font name="Roboto Regular" size="28.0"/>
+            </font>
+        </Label>
+        <Label fx:id="timeCount" layoutX="127.0" layoutY="186.0" prefHeight="45.0" prefWidth="55.0" text="30">
+            <font>
+                <Font name="Roboto Regular" size="28.0"/>
+            </font>
+        </Label>
+        <ImageView fx:id="timerIcon" fitHeight="45.0" fitWidth="45.0" layoutX="68.0" layoutY="185.0" pickOnBounds="true"
+                   preserveRatio="true">
+            <image>
+                <Image url="@../assets/quizEspañol/timer.png"/>
+            </image>
+        </ImageView>
+        <Circle fx:id="questionStatus1" fill="WHITE" layoutX="1227.0" layoutY="153.0" radius="13.0" stroke="BLACK"
+                strokeType="INSIDE"/>
+        <Circle fx:id="questionStatus2" fill="WHITE" layoutX="1227.0" layoutY="190.0" radius="13.0" stroke="BLACK"
+                strokeType="INSIDE"/>
+        <Circle fx:id="questionStatus3" fill="WHITE" layoutX="1227.0" layoutY="223.0" radius="13.0" stroke="BLACK"
+                strokeType="INSIDE"/>
+        <Circle fx:id="questionStatus4" fill="WHITE" layoutX="1227.0" layoutY="260.0" radius="13.0" stroke="BLACK"
+                strokeType="INSIDE"/>
+        <Circle fx:id="questionStatus5" fill="WHITE" layoutX="1227.0" layoutY="297.0" radius="13.0" stroke="BLACK"
+                strokeType="INSIDE"/>
+        <Circle fx:id="questionStatus6" fill="WHITE" layoutX="1227.0" layoutY="334.0" radius="13.0" stroke="BLACK"
+                strokeType="INSIDE"/>
+        <Circle fx:id="questionStatus7" fill="WHITE" layoutX="1227.0" layoutY="373.0" radius="13.0" stroke="BLACK"
+                strokeType="INSIDE"/>
+        <Circle fx:id="questionStatus8" fill="WHITE" layoutX="1227.0" layoutY="410.0" radius="13.0" stroke="BLACK"
+                strokeType="INSIDE"/>
+        <Circle fx:id="questionStatus9" fill="WHITE" layoutX="1227.0" layoutY="445.0" radius="13.0" stroke="BLACK"
+                strokeType="INSIDE"/>
+        <Circle fx:id="questionStatus10" fill="WHITE" layoutX="1227.0" layoutY="482.0" radius="13.0" stroke="BLACK"
+                strokeType="INSIDE"/>
+        <Label alignment="CENTER" layoutX="2.0" layoutY="481.0" prefWidth="1278.0"
+               text="¿Cuál es la respuesta correcta?">
+            <font>
+                <Font name="Roboto Italic" size="36.0"/>
+            </font>
+        </Label>
+        <Label fx:id="operacionProblema" alignment="CENTER" layoutX="4.0" layoutY="243.0" prefHeight="240.0"
+               prefWidth="1278.0">
+            <font>
+                <Font name="Roboto Regular" size="57.0"/>
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

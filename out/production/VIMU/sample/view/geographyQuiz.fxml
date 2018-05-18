@@ -26,7 +26,8 @@
                 <Image url="@../assets/menu/Close.png" />
             </image>
         </ImageView>
-        <ImageView fx:id="home" fitHeight="45.0" fitWidth="45.0" layoutX="37.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="home" fitHeight="45.0" fitWidth="45.0" layoutX="37.0" layoutY="18.0" pickOnBounds="true"
+                   preserveRatio="true">
             <image>
                 <Image url="@../assets/ranking/homes.png" />
             </image>
@@ -83,15 +84,25 @@
                 <Image url="@../assets/quizEspañol/timer.png" />
             </image>
         </ImageView>
-      <Circle fx:id="questionStatus1" fill="WHITE" layoutX="1227.0" layoutY="153.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="questionStatus2" fill="WHITE" layoutX="1227.0" layoutY="190.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="questionStatus3" fill="WHITE" layoutX="1227.0" layoutY="223.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="questionStatus4" fill="WHITE" layoutX="1227.0" layoutY="260.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="questionStatus5" fill="WHITE" layoutX="1227.0" layoutY="297.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="questionStatus6" fill="WHITE" layoutX="1227.0" layoutY="334.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="questionStatus7" fill="WHITE" layoutX="1227.0" layoutY="373.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="questionStatus8" fill="WHITE" layoutX="1227.0" layoutY="410.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="questionStatus9" fill="WHITE" layoutX="1227.0" layoutY="445.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="questionStatus10" fill="WHITE" layoutX="1227.0" layoutY="482.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="questionStatus1" fill="WHITE" layoutX="1227.0" layoutY="153.0" radius="13.0" stroke="BLACK"
+                strokeType="INSIDE"/>
+        <Circle fx:id="questionStatus2" fill="WHITE" layoutX="1227.0" layoutY="190.0" radius="13.0" stroke="BLACK"
+                strokeType="INSIDE"/>
+        <Circle fx:id="questionStatus3" fill="WHITE" layoutX="1227.0" layoutY="223.0" radius="13.0" stroke="BLACK"
+                strokeType="INSIDE"/>
+        <Circle fx:id="questionStatus4" fill="WHITE" layoutX="1227.0" layoutY="260.0" radius="13.0" stroke="BLACK"
+                strokeType="INSIDE"/>
+        <Circle fx:id="questionStatus5" fill="WHITE" layoutX="1227.0" layoutY="297.0" radius="13.0" stroke="BLACK"
+                strokeType="INSIDE"/>
+        <Circle fx:id="questionStatus6" fill="WHITE" layoutX="1227.0" layoutY="334.0" radius="13.0" stroke="BLACK"
+                strokeType="INSIDE"/>
+        <Circle fx:id="questionStatus7" fill="WHITE" layoutX="1227.0" layoutY="373.0" radius="13.0" stroke="BLACK"
+                strokeType="INSIDE"/>
+        <Circle fx:id="questionStatus8" fill="WHITE" layoutX="1227.0" layoutY="410.0" radius="13.0" stroke="BLACK"
+                strokeType="INSIDE"/>
+        <Circle fx:id="questionStatus9" fill="WHITE" layoutX="1227.0" layoutY="445.0" radius="13.0" stroke="BLACK"
+                strokeType="INSIDE"/>
+        <Circle fx:id="questionStatus10" fill="WHITE" layoutX="1227.0" layoutY="482.0" radius="13.0" stroke="BLACK"
+                strokeType="INSIDE"/>
     </children>
 </AnchorPane>

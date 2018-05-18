@@ -22,6 +22,8 @@ import java.io.IOException;
 
 public class RegistroController {
 
+    private String chooseQuiz;
+
     @FXML private Label player1Tilte;
 
     @FXML private JFXTextField player1TextField;
@@ -109,17 +111,17 @@ public class RegistroController {
     }
 
     private void goQuiz () {
-        Stage spanishStage = new Stage();
+        Stage quizStage = new Stage();
 
         Parent root = null;
         try {
-            root = FXMLLoader.load(getClass().getResource("/sample/view/spanishQuiz.fxml"));
+            root = FXMLLoader.load(getClass().getResource("/sample/view/" + chooseQuiz + "Quiz.fxml"));
             Scene scene = new Scene(root);
-            spanishStage.setScene(scene);
-            spanishStage.initStyle(StageStyle.UNDECORATED);
+            quizStage.setScene(scene);
+            quizStage.initStyle(StageStyle.UNDECORATED);
 
-            spanishStage.show();
-            spanishStage.setResizable(false);
+            quizStage.show();
+            quizStage.setResizable(false);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -148,4 +150,10 @@ public class RegistroController {
         alerta.setContentText("¡No deje espacios vacíos!");
         alerta.showAndWait();
     }
+
+    public void setChooseQuiz(String chooseQuiz) {
+        this.chooseQuiz = chooseQuiz;
+    }
+
+
 }

@@ -79,32 +79,39 @@ public class MenuController{
 
     public void playMath(MouseEvent mouseEvent) {
 
-        registroUsuario();
+        registroUsuario("math");
         matematicas.getScene().getWindow().hide();
     }
 
     public void playSpanish(MouseEvent mouseEvent) {
-        registroUsuario();
+        registroUsuario("spanish");
         spanish.getScene().getWindow().hide();
 
     }
 
     public void playGeo(MouseEvent mouseEvent) {
 
-        registroUsuario();
+        registroUsuario("geography");
         geografia.getScene().getWindow().hide();
     }
 
-    private void registroUsuario() {
+    private void registroUsuario(String nameQuiz) {
         Stage registroStage = new Stage();
         try {
-            Parent root = FXMLLoader.load(getClass().getResource("/sample/view/registro.fxml"));
-            Scene scene = new Scene(root);
-            registroStage.setScene(scene);
-            registroStage.initStyle(StageStyle.UNDECORATED);
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(getClass().getResource("/sample/view/registro.fxml"));
+            loader.load();
 
-            registroStage.show();
+            Parent root = loader.getRoot();
+            Stage stage = new Stage();
+            stage.setScene(new Scene(root));
+            stage.initStyle(StageStyle.UNDECORATED);
+
+            RegistroController registroController = loader.getController();
+            registroController.setChooseQuiz(nameQuiz);
+            stage.show();
             registroStage.setResizable(false);
+
 
         } catch (IOException e) {
             e.printStackTrace();

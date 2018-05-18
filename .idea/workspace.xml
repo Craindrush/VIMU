@@ -1,33 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1820fe6-e3ff-45b6-bbf5-940da3bb62b8" name="Default" comment="Controllers creados para todas las views. Imagenes de close y minimize ya funcionando.">
-      <change afterPath="$PROJECT_DIR$/src/sample/classes/AutomaticQuiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/classes/Dificultad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/classes/Fraccion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/classes/GeneradorAritmetico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/classes/GeneradorPreguntas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/classes/Pregunta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/classes/Preguntas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/classes/Quiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/classes/Respuesta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/controller/MathController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/view/mathQuiz.fxml" afterDir="false" />
+    <list default="true" id="f1820fe6-e3ff-45b6-bbf5-940da3bb62b8" name="Default" comment="Imágenes del quiz de español agregadas. Preguntas y respuesta en archivos de texto agregadas.&#10;Imágenes ya cambian cada 30 segundos. Codificación modificada (de UTF-8 a ISO-8859-1)">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/QuestionAnswers/Spanish/Preguntas.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/QuestionAnswers/Spanish/Respuestas.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/assets/quizEspañol/pregunta1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/assets/quizEspañol/pregunta10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/assets/quizEspañol/pregunta11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/assets/quizEspañol/pregunta12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/assets/quizEspañol/pregunta13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/assets/quizEspañol/pregunta14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/assets/quizEspañol/pregunta15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/assets/quizEspañol/pregunta16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/assets/quizEspañol/pregunta17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/assets/quizEspañol/pregunta18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/assets/quizEspañol/pregunta19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/assets/quizEspañol/pregunta2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/assets/quizEspañol/pregunta3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/assets/quizEspañol/pregunta4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/assets/quizEspañol/pregunta5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/assets/quizEspañol/pregunta6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/assets/quizEspañol/pregunta7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/assets/quizEspañol/pregunta8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/assets/quizEspañol/pregunta9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/VIMU/sample/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/VIMU/sample/controller/GeographyController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VIMU/sample/controller/GeographyController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/VIMU/sample/controller/GeographyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VIMU/sample/controller/GeographyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VIMU/sample/controller/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VIMU/sample/controller/MenuController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/VIMU/sample/controller/RegistroController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VIMU/sample/controller/RegistroController$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/VIMU/sample/controller/RegistroController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VIMU/sample/controller/RegistroController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/VIMU/sample/controller/SpanishController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VIMU/sample/controller/SpanishController$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/VIMU/sample/controller/SpanishController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VIMU/sample/controller/SpanishController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/VIMU/sample/view/geographyQuiz.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VIMU/sample/view/geographyQuiz.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VIMU/sample/view/menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VIMU/sample/view/menu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VIMU/sample/view/registro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VIMU/sample/view/registro.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/VIMU/sample/view/spanishquiz.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VIMU/sample/view/spanishquiz.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/classes/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/controller/GeographyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/controller/GeographyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/classes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/classes/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/controller/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/controller/MenuController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/controller/RegistroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/controller/RegistroController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/controller/SpanishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/controller/SpanishController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/view/geographyQuiz.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/view/geographyQuiz.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/view/menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/view/menu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/view/registro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/view/registro.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/view/spanishQuiz.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/view/spanishQuiz.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,65 +56,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/classes/Main.java">
+      <file leaf-file-name="SpanishController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/controller/SpanishController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="1819">
+              <caret line="107" column="39" selection-start-line="107" selection-start-column="39" selection-end-line="107" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3816#3817#0" expanded="true" />
+                <element signature="e#3848#3849#0" expanded="true" />
+                <element signature="e#3903#3904#0" expanded="true" />
+                <element signature="e#3933#3934#0" expanded="true" />
+                <element signature="e#4445#4454#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dificultad.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/classes/Dificultad.java">
+      <file leaf-file-name="Preguntas.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/QuestionAnswers/Spanish/Preguntas.txt">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="Pregunta.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/classes/Pregunta.java">
+      <file leaf-file-name="Respuestas.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/QuestionAnswers/Spanish/Respuestas.txt">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="Respuesta.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/classes/Respuesta.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="Quiz.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/classes/Quiz.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="GeneradorPreguntas.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/classes/GeneradorPreguntas.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="GeneradorAritmetico.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/classes/GeneradorAritmetico.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="AutomaticQuiz.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/classes/AutomaticQuiz.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="Fraccion.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/classes/Fraccion.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="Preguntas.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sample/classes/Preguntas.java">
+      <file leaf-file-name="misc.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="85">
+              <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modules.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="40" selection-start-column="40" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uiDesigner.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="40" selection-start-column="40" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vcs.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="38" selection-start-column="38" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="encodings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="40" selection-start-column="40" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spanishQuiz.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/view/spanishQuiz.fxml">
+          <provider selected="true" editor-type-id="text-editor" />
+          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
     </leaf>
@@ -121,6 +163,8 @@
       <find>playGeo</find>
       <find>back</find>
       <find>Roboto</find>
+      <find>quizEs</find>
+      <find>Math.ra</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -145,16 +189,24 @@
         <option value="$PROJECT_DIR$/src/sample/view/howToGeo.fxml" />
         <option value="$PROJECT_DIR$/src/sample/view/howToMath.fxml" />
         <option value="$PROJECT_DIR$/src/sample/view/ranking.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/controller/MenuController.java" />
         <option value="$PROJECT_DIR$/src/sample/view/geographyQuiz.fxml" />
         <option value="$PROJECT_DIR$/src/sample/controller/GeographyController.java" />
-        <option value="$PROJECT_DIR$/src/sample/controller/SpanishController.java" />
-        <option value="$PROJECT_DIR$/src/sample/view/spanishQuiz.fxml" />
         <option value="$PROJECT_DIR$/src/sample/view/mathQuiz.fxml" />
         <option value="$PROJECT_DIR$/src/sample/controller/MathController.java" />
         <option value="$PROJECT_DIR$/src/sample/Main.java" />
-        <option value="$PROJECT_DIR$/src/sample/controller/RegistroController.java" />
         <option value="$PROJECT_DIR$/src/sample/classes/Preguntas.java" />
+        <option value="$PROJECT_DIR$/src/sample/view/spanishQuiz.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/controller/RegistroController.java" />
+        <option value="$PROJECT_DIR$/src/sample/controller/MenuController.java" />
+        <option value="$PROJECT_DIR$/src/sample/classes/Main.java" />
+        <option value="$PROJECT_DIR$/example.java" />
+        <option value="$PROJECT_DIR$/src/sample/controller/SpanishController.java" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -168,7 +220,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1905" />
+    <option name="x" value="-15" />
     <option name="width" value="1948" />
     <option name="height" value="2075" />
   </component>
@@ -177,8 +229,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,6 +242,11 @@
             <path>
               <item name="VIMU" type="b2602c69:ProjectViewProjectNode" />
               <item name="VIMU" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VIMU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIMU" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -196,6 +254,21 @@
               <item name="VIMU" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VIMU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIMU" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VIMU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIMU" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="quizEspañol" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="VIMU" type="b2602c69:ProjectViewProjectNode" />
@@ -206,13 +279,41 @@
             </path>
             <path>
               <item name="VIMU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIMU" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VIMU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIMU" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="QuestionAnswers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VIMU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIMU" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="QuestionAnswers" type="462c0819:PsiDirectoryNode" />
+              <item name="Spanish" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VIMU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIMU" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VIMU" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,16 +327,16 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\omar9\IdeaProjects\VIMU\src\sample\classes" />
-      <recent name="C:\Users\omar9\IdeaProjects\VIMU\src\sample\assets\quizEspañol" />
-      <recent name="C:\Users\omar9\IdeaProjects\VIMU\src\sample\assets\registroJugadores" />
-      <recent name="C:\Users\omar9\IdeaProjects\VIMU\src\sample\assets\menu" />
-      <recent name="C:\Users\omar9\IdeaProjects\VIMU\src\sample\assets\ranking" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\omar9\IdeaProjects\VIMU\src\sample\assets\ranking" />
       <recent name="C:\Users\omar9\IdeaProjects\VIMU\src\sample\assets\registroJugadores" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\omar9\IdeaProjects\VIMU" />
+      <recent name="C:\Users\omar9\IdeaProjects\VIMU\src\sample\classes" />
+      <recent name="C:\Users\omar9\IdeaProjects\VIMU\src\sample\assets\quizEspa�ol" />
+      <recent name="C:\Users\omar9\IdeaProjects\VIMU\src\sample\assets\registroJugadores" />
+      <recent name="C:\Users\omar9\IdeaProjects\VIMU\src\sample\assets\menu" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -333,7 +434,13 @@
       <workItem from="1526068250304" duration="4693000" />
       <workItem from="1526332028367" duration="1819000" />
       <workItem from="1526356438143" duration="1183000" />
-      <workItem from="1526400801917" duration="4073000" />
+      <workItem from="1526400801917" duration="4330000" />
+      <workItem from="1526485270081" duration="2170000" />
+      <workItem from="1526495326252" duration="1554000" />
+      <workItem from="1526535825044" duration="2608000" />
+      <workItem from="1526539326637" duration="3742000" />
+      <workItem from="1526574957722" duration="4604000" />
+      <workItem from="1526591646000" duration="6255000" />
     </task>
     <task id="LOCAL-00001" summary="Controllers creados para todas las views. Imagenes de close y minimize ya funcionando.">
       <created>1525077660052</created>
@@ -342,45 +449,51 @@
       <option name="project" value="LOCAL" />
       <updated>1525077660052</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="View y controller de matem�ticas creados. Clases con la abstracci�n del quiz agregadas.">
+      <created>1526410015594</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1526410015594</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51767000" />
+    <option name="totallyTimeSpent" value="73668000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="5" />
-      <window_info anchor="bottom" id="Messages" order="6" sideWeight="0.49967468" weight="0.32369146" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49967468" weight="0.32093665" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info id="Image Layers" order="2" />
+      <window_info id="Image Layers" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50162655" side_tool="true" weight="0.6928375" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5032595" side_tool="true" weight="0.16828929" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.49837345" visible="true" weight="0.27410468" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23942746" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49674055" weight="0.16666667" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Designer" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26089785" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
+      <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.39807162" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39807162" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3292011" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,14 +504,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Controllers creados para todas las views. Imagenes de close y minimize ya funcionando." />
-    <option name="LAST_COMMIT_MESSAGE" value="Controllers creados para todas las views. Imagenes de close y minimize ya funcionando." />
+    <MESSAGE value="View y controller de matem�ticas creados. Clases con la abstracci�n del quiz agregadas." />
+    <MESSAGE value="Imágenes del quiz de español agregadas. Preguntas y respuesta en archivos de texto agregadas.&#10;Imágenes ya cambian cada 30 segundos. Codificación modificada (de UTF-8 a ISO-8859-1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Imágenes del quiz de español agregadas. Preguntas y respuesta en archivos de texto agregadas.&#10;Imágenes ya cambian cada 30 segundos. Codificación modificada (de UTF-8 a ISO-8859-1)" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sample/controller/RegistroController.java</url>
-          <line>105</line>
+          <line>106</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -406,52 +522,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sample/controller/RegistroController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1782">
-          <caret line="100" column="16" lean-forward="true" selection-start-line="100" selection-start-column="16" selection-end-line="100" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/controller/GeographyController.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/classes/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="55" lean-forward="true" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12386">
-          <caret line="563" selection-start-line="563" selection-end-line="563" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/classes/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/classes/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/controller/SpanishController.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/controller/MenuController.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/controller/RegistroController.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/classes/Main.java">
@@ -600,14 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/controller/GeographyController.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/controller/SpanishController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1717">
-          <caret line="123" column="36" selection-end-line="138" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/controller/RankingController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -615,72 +677,175 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/view/mathQuiz.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/controller/MathController.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/classes/Dificultad.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        <state relative-caret-position="51">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controller/GeographyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="111" column="33" selection-start-line="111" selection-start-column="33" selection-end-line="111" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/classes/GeneradorPreguntas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/classes/GeneradorAritmetico.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/classes/Preguntas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/classes/Quiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/classes/AutomaticQuiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/classes/Fraccion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/controller/RegistroController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2227">
-          <caret line="151" column="1" lean-forward="true" selection-start-line="151" selection-start-column="1" selection-end-line="151" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/classes.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/controller/MenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        <state relative-caret-position="1649">
+          <caret line="117" column="94" selection-start-line="117" selection-start-column="94" selection-end-line="117" selection-end-column="94" />
+          <folding>
+            <element signature="e#4507#4508#0" expanded="true" />
+            <element signature="e#4551#4552#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/classes/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="153">
+          <caret line="15" column="86" selection-start-line="15" selection-start-column="86" selection-end-line="15" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/classes/Dificultad.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/classes/Pregunta.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/classes/Respuesta.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/classes/Quiz.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/classes/GeneradorPreguntas.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/classes/GeneradorAritmetico.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/classes/AutomaticQuiz.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/classes/Fraccion.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/classes/Preguntas.java">
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/javafx.controls/javafx/scene/control/Labeled.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="1394">
+          <caret line="147" column="24" selection-start-line="147" selection-start-column="24" selection-end-line="147" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controller/MathController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="118" column="22" selection-start-line="118" selection-start-column="22" selection-end-line="118" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controller/MenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="109" column="65" selection-start-line="109" selection-start-column="65" selection-end-line="109" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/view/spanishQuiz.fxml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/util/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="59" column="63" lean-forward="true" selection-start-line="59" selection-start-column="63" selection-end-line="59" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controller/SpanishController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1819">
+          <caret line="107" column="39" selection-start-line="107" selection-start-column="39" selection-end-line="107" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3816#3817#0" expanded="true" />
+            <element signature="e#3848#3849#0" expanded="true" />
+            <element signature="e#3903#3904#0" expanded="true" />
+            <element signature="e#3933#3934#0" expanded="true" />
+            <element signature="e#4445#4454#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/QuestionAnswers/Spanish/Preguntas.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/QuestionAnswers/Spanish/Respuestas.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="40" selection-start-column="40" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="40" selection-start-column="40" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="40" selection-start-column="40" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
         </state>
       </provider>
     </entry>

@@ -10,6 +10,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
+import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.shape.Circle;
@@ -18,7 +19,12 @@ import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import javafx.util.Duration;
 
-import java.io.IOException;
+import java.io.*;
+import java.sql.Time;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Random;
 
 public class SpanishController {
 
@@ -30,12 +36,6 @@ public class SpanishController {
 
     @FXML
     private ImageView close;
-
-    @FXML
-    private ImageView home;
-
-    @FXML
-    private Text pregunta;
 
     @FXML
     private ImageView imagenPregunta;
@@ -94,45 +94,112 @@ public class SpanishController {
     @FXML
     private Circle questionStatus10;
 
+    private String rutaImagen;
+
+    private int[] seconds = {30};
+
     @FXML
     void initialize() {
-        //Esta en el mismo thread principal que nuestra aplicacion de javafx
-        Timeline timer = new Timeline(new KeyFrame(Duration.seconds(1), new EventHandler<ActionEvent>() {
-            int i = 29;
+        //Creando la collecion que contendra nuestros indices aleaotrios de las preguntas
+        HashSet<Integer> questionIndex = randomQuestionIndex(10, 19);
+        Iterator<Integer> iterator = questionIndex.iterator();
+        changeImage(iterator.next());
+
+        Timeline counter = downTimer();
+        counter.playFromStart();
+
+        opcionA.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                timeCount.setText(Integer.toString(i--));
+                counter.stop();
+                if (iterator.hasNext() == true) {
+                    if (false /*valor de la pregunta*/ == true) {
+                        changeImage(iterator.next());
+                        seconds[0] = 30;
+                    }
+                    counter.play();
+                } else minimizeWindow();
             }
-        }));
-        timer.setCycleCount(29);
-        timer.play();
+        });
+
+        opcionB.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                if (iterator.hasNext() == true) {
+                    changeImage(iterator.next());
+                } else minimizeWindow();
+            }
+        });
+
+        opcionC.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                if (iterator.hasNext() == true) {
+                    changeImage(iterator.next());
+                } else minimizeWindow();
+            }
+        });
+
+        opcionD.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                if (iterator.hasNext() == true) {
+                    changeImage(iterator.next());
+                } else minimizeWindow();
+            }
+        });
+
     }
 
+    /* METODOS CREADOS PARA ACTUAR COMO LISTENERS DE LOS NODOS */
     public void minimizeProgram(MouseEvent mouseEvent) {
-        Stage stage = (Stage) minimize.getScene().getWindow();
-        stage.setIconified(true);
+        minimizeWindow();
     }
 
     public void closeProgram(MouseEvent mouseEvent) {
         System.exit(0);
     }
 
-    public void returnHome(MouseEvent mouseEvent) {
-        Stage menuStage = new Stage();
-        Parent root = null;
-        try {
-            root = FXMLLoader.load(getClass().getResource("/sample/view/menu.fxml"));
-            Scene scene = new Scene(root);
-            menuStage.setScene(scene);
-            menuStage.initStyle(StageStyle.UNDECORATED);
+    /* METODOS USADOS PARA LA LOGICA/FUNCIONALIDAD DEL JUEGO */
 
-            menuStage.show();
-            menuStage.setResizable(false);
+    //Metodo que prepara una animacion de un temporizador de reloj. Recibe por parametro la duracion del temporizador
+    private Timeline downTimer() {
 
-            home.getScene().getWindow().hide();
+        Timeline time = new Timeline();
+        time.setCycleCount(Timeline.INDEFINITE);
 
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        KeyFrame frame = new KeyFrame(Duration.seconds(1), new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+
+
+                timeCount.setText(Integer.toString(seconds[0]));
+                if (seconds[0] <= 0) {
+                    time.stop(); //Para que se detenga el downtimer al llegar a 0
+                }
+                seconds[0]--;
+            }
+        });
+
+        time.getKeyFrames().add(frame);
+        return time;
+    }
+
+    private void changeImage(int i) {
+        rutaImagen = "/sample/assets/quizEspañol/pregunta" + Integer.toString(i) + ".jpg";
+        imagenPregunta.setImage(new Image(rutaImagen));
+    }
+
+    private HashSet<Integer> randomQuestionIndex(int preguntasJuego, int numPreguntasDisponibles) {
+        HashSet<Integer> randomNum = new HashSet<Integer>(preguntasJuego);
+        do {
+            randomNum.add((int) (Math.random() * ((numPreguntasDisponibles - 1) + 1)) + 1);
+        } while (randomNum.size() != preguntasJuego);
+        return randomNum;
+    }
+
+    private void minimizeWindow() {
+        Stage stage = (Stage) minimize.getScene().getWindow();
+        stage.setIconified(true);
     }
 }

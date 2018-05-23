@@ -1,0 +1,19 @@
+﻿Sedentaria;Primitiva;*Nómada;Agrícola
+Europa;*América;Asia;África
+*China;Rusia;Japón;India
+225;*196;300;150
+Sao Paulo;Santiago;*Ciudad de México;Nueva York
+Veracruz;*Xalapa;Ciudad Victoria;Tlacotalpan
+*Río Bravo;Río Hondo;Río Grijalva;Río Colorado
+Colima;*Tabasco;Jalisco;Querétaro
+Coahuila;Chihuahua;*Durango;Monterrey
+*Amazonas;Orinoco;Paranú - Río de La Plata;Río Pírus
+Chile;Ecuador;*Perú;Bolivia
+2900;*4600;7200;5500
+4;7;6;*5
+Español;*Chino Mandarín;Inglés;Hindi
+Islas Coral, Maldivas;Barrera de Coral de Belice;*Gran Barrera de Coral, Australia;Barrera de Coral de Nueva Caledonia
+*Noruega;Rumania;Portugal;Bulgaria
+México,Argentina,Colombia,Perú;*Argentina,México,Perú,Colombia;Perú,México,Argentina,Colombia;Colombia,México,Perú,Argentina
+*Uruguay;Panamá;El Salvador;Guatemala
+Sonora, Coahuila y Durango;Chihuahua, Sonora y Durango;*Chihuahua, Sonora y Coahuila;Oaxaca, Sonora y Nuevo León

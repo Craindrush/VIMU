@@ -43,30 +43,30 @@
             </ImageView>
             <Label fx:id="labelMath" layoutX="231.0" layoutY="330.0" text="Matemáticas">
                <font>
-                  <Font name="Roboto Regular" size="28.0"/>
+                  <Font name="Roboto Regular" size="28.0" />
                </font>
             </Label>
             <Label fx:id="labelGeo" layoutX="926.0" layoutY="330.0" text="Geografía">
                <font>
-                  <Font name="Roboto Regular" size="28.0"/>
+                  <Font name="Roboto Regular" size="28.0" />
                </font>
             </Label>
             <Label fx:id="labelSpanish" layoutX="612.0" layoutY="330.0" text="Español">
                <font>
-                  <Font name="Roboto Regular" size="28.0"/>
+                  <Font name="Roboto Regular" size="28.0" />
                </font>
             </Label>
-            <Hyperlink fx:id="howToMath" layoutX="259.0" layoutY="395.0" text="¿Cómo se juega?">
+            <Hyperlink fx:id="howToMath" layoutX="248.0" layoutY="383.0" text="Ranking - Top 10" textFill="WHITE">
                <font>
                   <Font name="Roboto Medium" size="14.0" />
                </font>
             </Hyperlink>
-            <Hyperlink fx:id="howToSpanish" layoutX="608.0" layoutY="395.0" text="¿Cómo se juega?">
+            <Hyperlink fx:id="howToSpanish" layoutX="608.0" layoutY="395.0" text="¿Cómo se juega?" textFill="WHITE">
                <font>
                   <Font name="Roboto Medium" size="14.0" />
                </font>
             </Hyperlink>
-            <Hyperlink fx:id="howToGeo" layoutX="933.0" layoutY="395.0" text="¿Cómo se juega?">
+            <Hyperlink fx:id="howToGeo" layoutX="933.0" layoutY="395.0" text="¿Cómo se juega?" textFill="WHITE">
                <font>
                   <Font name="Roboto Medium" size="14.0" />
                </font>
@@ -75,7 +75,7 @@
       </AnchorPane>
       <Label fx:id="subtitle" layoutX="459.0" layoutY="209.0" text="Videojuego Multidisciplinario" textFill="WHITE">
          <font>
-            <Font name="Roboto Regular" size="28.0"/>
+            <Font name="Roboto Regular" size="28.0" />
          </font>
       </Label>
    </children>

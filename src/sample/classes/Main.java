@@ -13,7 +13,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
 
-        Parent root = FXMLLoader.load(getClass().getResource("/sample/view/spanishQuiz.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/sample/view/menu.fxml"));
         primaryStage.setResizable(false);
         primaryStage.initStyle(StageStyle.UNDECORATED);
 

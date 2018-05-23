@@ -51,14 +51,14 @@ public class MenuController{
     @FXML
     private Label labelSpanish;
 
-    @FXML
-    private Hyperlink howToMath;
-
-    @FXML
-    private Hyperlink howToSpanish;
-
-    @FXML
-    private Hyperlink howToGeo;
+//    @FXML
+//    private Hyperlink howToMath;
+//
+//    @FXML
+//    private Hyperlink howToSpanish;
+//
+//    @FXML
+//    private Hyperlink howToGeo;
 
     @FXML
     private Label subtitle;
@@ -96,7 +96,6 @@ public class MenuController{
     }
 
     private void registroUsuario(String nameQuiz) {
-        Stage registroStage = new Stage();
         try {
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(getClass().getResource("/sample/view/registro.fxml"));
@@ -110,7 +109,7 @@ public class MenuController{
             RegistroController registroController = loader.getController();
             registroController.setChooseQuiz(nameQuiz);
             stage.show();
-            registroStage.setResizable(false);
+            stage.setResizable(false);
 
 
         } catch (IOException e) {

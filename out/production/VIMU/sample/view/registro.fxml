@@ -24,9 +24,9 @@
                   <Font name="Roboto Bold" size="30.0" />
                </font>
             </Label>
-            <JFXTextField fx:id="player1TextField" focusColor="#303f9f" layoutX="279.0" layoutY="125.0" prefHeight="25.0" prefWidth="306.0" promptText="Nombre Jugador 1">
+            <JFXTextField fx:id="player1Name" focusColor="#303f9f" layoutX="279.0" layoutY="125.0" prefHeight="25.0" prefWidth="306.0" promptText="Nombre Jugador 1">
                <font>
-                  <Font name="Roboto Regular" size="16.0"/>
+                  <Font name="Roboto Regular" size="16.0" />
                </font>
             </JFXTextField>
             <JFXDatePicker fx:id="player1Birthday" defaultColor="#303f9f" layoutX="278.0" layoutY="222.0" prefHeight="28.0" prefWidth="327.0" promptText="Fecha de Nacimiento (DD/MM/AAAA)" />
@@ -60,9 +60,9 @@
                   <Font name="Roboto Bold" size="30.0" />
                </font>
             </Label>
-            <JFXTextField fx:id="player2TextField" focusColor="#388e3c" layoutX="800.0" layoutY="125.0" prefHeight="25.0" prefWidth="306.0" promptText="Nombre Jugador 1">
+            <JFXTextField fx:id="player2Name" focusColor="#388e3c" layoutX="800.0" layoutY="125.0" prefHeight="25.0" prefWidth="306.0" promptText="Nombre Jugador 1">
                <font>
-                  <Font name="Roboto Regular" size="16.0"/>
+                  <Font name="Roboto Regular" size="16.0" />
                </font>
             </JFXTextField>
             <JFXDatePicker fx:id="player2Birthday" defaultColor="#388e3c" layoutX="799.0" layoutY="222.0" prefHeight="28.0" prefWidth="327.0" promptText="Fecha de Nacimiento (DD/MM/AAAA)" />
@@ -100,7 +100,7 @@
       </Label>
       <Label fx:id="subtitle" layoutX="469.0" layoutY="219.0" text="Videojuego Multidisciplinario" textFill="WHITE">
          <font>
-            <Font name="Roboto Regular" size="29.0"/>
+            <Font name="Roboto Regular" size="29.0" />
          </font>
       </Label>
       <ImageView fx:id="minimize" fitHeight="45.0" fitWidth="45.0" layoutX="1180.0" layoutY="18.0" onMouseClicked="#minimizeProgram" pickOnBounds="true" preserveRatio="true">

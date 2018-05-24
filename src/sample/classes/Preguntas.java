@@ -32,6 +32,7 @@ public class Preguntas {
             while ((linea = br.readLine()) != null) {
                 listadoPreguntas.add(new Pregunta(linea));
             }
+            br.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -46,6 +47,7 @@ public class Preguntas {
             while ((linea = br.readLine()) != null) {
                 respuestas.add(linea);
             }
+            br.close();
         } catch (Exception e) {
             e.printStackTrace();
         }

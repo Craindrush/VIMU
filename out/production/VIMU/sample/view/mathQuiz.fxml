@@ -6,12 +6,11 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Circle?>
-<?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1280.0" style="-fx-background-color: #ffc400;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.MathController">
     <children>
-        <Label fx:id="tituloMateria" alignment="CENTER" contentDisplay="CENTER" layoutX="5.0" layoutY="146.0" prefHeight="105.0" prefWidth="1280.0" text="MATEMÁTICAS" textAlignment="CENTER" textFill="WHITE">
+        <Label fx:id="tituloMateria" alignment="CENTER" contentDisplay="CENTER" layoutX="5.0" layoutY="86.0" prefHeight="105.0" prefWidth="1280.0" text="MATEMÁTICAS" textAlignment="CENTER" textFill="WHITE">
             <font>
                 <Font name="Roboto Regular" size="72.0" />
             </font>
@@ -56,9 +55,9 @@
                 <Font name="Roboto Regular" size="25.0" />
             </font>
         </Label>
-        <Label fx:id="puntuacion" alignment="CENTER" layoutX="705.0" layoutY="8.0" prefHeight="64.0" prefWidth="453.0" style="-fx-background-color: #D01329;" text="PUNTUACIÓN: 0 pts" textFill="WHITE">
+        <Label fx:id="puntuacion" layoutX="40.0" layoutY="83.0" prefHeight="64.0" prefWidth="453.0" text="PUNTUACIÓN: 0 pts">
             <font>
-                <Font name="Roboto Regular" size="17.0" />
+                <Font name="Roboto Regular" size="21.0" />
             </font>
         </Label>
         <ImageView fx:id="timerIcon" fitHeight="40.0" fitWidth="41.0" layoutX="959.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
@@ -81,17 +80,15 @@
                 <Font name="Roboto Regular" size="40.0" />
             </font>
         </Label>
-      <Label fx:id="nombreJugador" alignment="CENTER" layoutX="-1.0" layoutY="8.0" prefHeight="64.0" prefWidth="353.0" style="-fx-background-color: #D01329;" text="NOMBRE:" textFill="WHITE">
+      <Label fx:id="nombreJugador" layoutX="40.0" layoutY="38.0" prefHeight="64.0" prefWidth="333.0" text="NOMBRE:">
          <font>
-            <Font name="Roboto Regular" size="17.0" />
+            <Font name="Roboto Regular" size="21.0" />
          </font>
       </Label>
-      <Label fx:id="edadJugador" alignment="CENTER" layoutX="352.0" layoutY="8.0" prefHeight="64.0" prefWidth="353.0" style="-fx-background-color: #D01329;" text="EDAD: " textFill="WHITE">
+      <Label fx:id="edadJugador" layoutX="40.0" layoutY="131.0" prefHeight="64.0" prefWidth="353.0" text="EDAD: ">
          <font>
-            <Font name="Roboto Regular" size="17.0" />
+            <Font name="Roboto Regular" size="21.0" />
          </font>
       </Label>
-      <Rectangle height="8.0" layoutX="-1.0" smooth="false" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1281.0" />
-      <Rectangle height="7.0" layoutX="-1.0" layoutY="72.0" smooth="false" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1281.0" />
     </children>
 </AnchorPane>

@@ -35,22 +35,22 @@
             </children>
         </AnchorPane>
         <ImageView fx:id="imagenPregunta" fitHeight="322.0" fitWidth="353.0" layoutX="84.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true" />
-        <JFXButton fx:id="opcionB" buttonType="RAISED" focusTraversable="false" layoutX="536.0" layoutY="291.0" ripplerFill="WHITE" style="-fx-background-color: #106A64;" text="b) Respuesta b" textAlignment="CENTER" textFill="WHITE" textOverrun="WORD_ELLIPSIS">
+        <JFXButton fx:id="opcionB" buttonType="RAISED" focusTraversable="false" layoutX="536.0" layoutY="291.0" ripplerFill="WHITE" style="-fx-background-color: #106A64;" textAlignment="CENTER" textFill="WHITE" textOverrun="WORD_ELLIPSIS">
             <font>
                 <Font name="Roboto" size="27.0" />
             </font>
         </JFXButton>
-        <JFXButton fx:id="opcionD" buttonType="RAISED" focusTraversable="false" layoutX="536.0" layoutY="464.0" ripplerFill="WHITE" style="-fx-background-color: #106A64;" text="d) Respuesta d" textAlignment="CENTER" textFill="WHITE">
+        <JFXButton fx:id="opcionD" buttonType="RAISED" focusTraversable="false" layoutX="536.0" layoutY="464.0" ripplerFill="WHITE" style="-fx-background-color: #106A64;" textAlignment="CENTER" textFill="WHITE">
             <font>
                 <Font name="Roboto" size="27.0" />
             </font>
         </JFXButton>
-        <JFXButton fx:id="opcionC" buttonType="RAISED" focusTraversable="false" layoutX="536.0" layoutY="379.0" ripplerFill="WHITE" style="-fx-background-color: #106A64;" text="c) Respuesta c" textAlignment="CENTER" textFill="WHITE">
+        <JFXButton fx:id="opcionC" buttonType="RAISED" focusTraversable="false" layoutX="536.0" layoutY="379.0" ripplerFill="WHITE" style="-fx-background-color: #106A64;" textAlignment="CENTER" textFill="WHITE">
             <font>
                 <Font name="Roboto" size="27.0" />
             </font>
         </JFXButton>
-        <JFXButton fx:id="opcionA" buttonType="RAISED" focusTraversable="false" layoutX="536.0" layoutY="203.0" ripplerFill="WHITE" style="-fx-background-color: #106A64;" text="a) Respuesta a" textAlignment="CENTER" textFill="WHITE">
+        <JFXButton fx:id="opcionA" buttonType="RAISED" focusTraversable="false" layoutX="536.0" layoutY="203.0" ripplerFill="WHITE" style="-fx-background-color: #106A64;" textAlignment="CENTER" textFill="WHITE">
             <font>
                 <Font name="Roboto" size="27.0" />
             </font>

@@ -1,2 +1,0 @@
-Hombre;Omar Osuna;19
-Hombre;Miguel Osuna;21

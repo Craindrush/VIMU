@@ -15,4 +15,8 @@ public class Partida {
         this.jugador1 = jugador1;
         this.jugador2 = jugador2;
     }
+
+    public Partida(String tema) {
+        this.tema = tema;
+    }
 }

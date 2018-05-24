@@ -1,2 +1,0 @@
-Hombre;Omar Osuna;19
-Mujer;Nicolle Reyes;22

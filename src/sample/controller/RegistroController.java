@@ -4,70 +4,41 @@ import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXDatePicker;
 import com.jfoenix.controls.JFXRadioButton;
 import com.jfoenix.controls.JFXTextField;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.scene.control.Alert;
-import javafx.scene.control.Label;
 import javafx.scene.control.ToggleGroup;
 import javafx.scene.image.ImageView;
-import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
-import sample.classes.Jugador;
 import sample.classes.Partida;
-import sample.classes.Puntaje;
+import sample.classes.StageModify;
 
 import java.io.File;
 import java.io.FileWriter;
-import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class RegistroController {
-
-    private String chooseQuiz;
-
-    @FXML private Label player1Tilte;
-
+    // SOLO HE DECLARADO LOS NODOS QUE MANIPULO EN EL JUEGO
     @FXML private JFXTextField player1Name;
-
     @FXML private JFXDatePicker player1Birthday;
-
     @FXML private JFXRadioButton player1Man;
-
     @FXML private JFXRadioButton player1Woman;
-
-    @FXML private Label player2Title;
-
     @FXML private JFXTextField player2Name;
-
     @FXML private JFXDatePicker player2Birthday;
-
     @FXML private JFXRadioButton player2Man;
-
     @FXML private JFXRadioButton player2Woman;
-
-    @FXML private JFXButton playButton;
-
-    @FXML private Label title;
-
-    @FXML private Label subtitle;
-
+    @FXML private JFXButton jugarBtn;
     @FXML private ImageView minimize;
-
+    @FXML private ImageView home;
     @FXML private ImageView close;
-
-    @FXML private ImageView back;
-
     private ToggleGroup group1 = new ToggleGroup();
     private ToggleGroup group2 = new ToggleGroup();
 
+    // ATRIBUTOS PARA LA LOGICA DEL JUEGO
+    private String chooseQuiz;
     private Partida partida;
+    private StageModify stageModify = new StageModify();
 
     @FXML
     void initialize() {
@@ -78,64 +49,28 @@ public class RegistroController {
 
         player2Man.setToggleGroup(group2);
         player2Woman.setToggleGroup(group2);
-
-        playButton.setOnAction(new EventHandler<ActionEvent>() {
-            @Override
-            public void handle(ActionEvent event) {
-                if(checkUserField() == true ) {
-                    savePlayerInfo(chooseQuiz);
-                    goQuiz();
-                    playButton.getScene().getWindow().hide();
-                } else {
-                    showAlert();
-                }
-            }
+        // Usando lambdas
+        jugarBtn.setOnAction(actionEvent -> {
+            if(checkUserField()) {
+                savePlayerInfo(chooseQuiz);
+                stageModify.changeStage("/sample/view/menu.fxml",close);
+                jugarBtn.getScene().getWindow().hide();
+            } else showAlert("Campos vacíos","¡No deje espacios vacíos!");
         });
     }
 
-    public void minimizeProgram(MouseEvent mouseEvent) {
+    // Metodos para actuar como handlers de las imagenes al ser clickeadas
+    public void minimizeProgram() {
         Stage stage = (Stage) minimize.getScene().getWindow();
         stage.setIconified(true);
     }
 
-    public void closeProgram(MouseEvent mouseEvent) {
+    public void closeProgram() {
         System.exit(0);
     }
 
-    //Return arrow
-    public void returnView(MouseEvent mouseEvent) {
-        Stage backStage = new Stage();
-
-        Parent root = null;
-        try {
-            root = FXMLLoader.load(getClass().getResource("/sample/view/menu.fxml"));
-            Scene menuScene = new Scene(root);
-            backStage.setScene(menuScene);
-            backStage.initStyle(StageStyle.UNDECORATED);
-            backStage.show();
-            backStage.setResizable(false);
-
-            back.getScene().getWindow().hide();
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    private void goQuiz () {
-        try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/sample/view/" + chooseQuiz + "Quiz.fxml"));
-            loader.load();
-
-            Parent root = loader.getRoot();
-            Stage stage = new Stage();
-            stage.setScene(new Scene(root));
-            stage.initStyle(StageStyle.UNDECORATED);
-            stage.show();
-            stage.setResizable(false);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    public void returnHome() {
+        stageModify.changeStage("/sample/view/bienvenida.fxml",close);
     }
 
     private boolean checkUserField() {
@@ -146,23 +81,17 @@ public class RegistroController {
                         return true;
                     }
                 }
-            } catch (NullPointerException e) {
-                System.out.println("No se puede convetir a cadena un dato vacio");
-            }
+            } catch (NullPointerException e) {}
         }
         return false;
     }
 
-    private void showAlert() {
+    private void showAlert(String titulo, String contenido) {
         Alert alerta = new Alert(Alert.AlertType.WARNING);
         alerta.setTitle(null);
-        alerta.setTitle("Campos vacíos");
-        alerta.setContentText("¡No deje espacios vacíos!");
+        alerta.setTitle(titulo);
+        alerta.setContentText(contenido);
         alerta.showAndWait();
-    }
-
-    public void setChooseQuiz(String chooseQuiz) {
-        this.chooseQuiz = chooseQuiz;
     }
 
     private String getAge (String fechaNacimiento) {
@@ -192,28 +121,18 @@ public class RegistroController {
 
     private void savePlayerInfo (String materia) {
         File file = null;
-        if (materia == "spanish") {
-            file = new File("src/sample/QuestionsAnswers/Spanish/players.txt");
-        }
-        else if (materia == "math") {
-            file = new File("src/sample/QuestionsAnswers/Math/players.txt");
-        }
-        else if (materia == "geography") {
-            file = new File("src/sample/QuestionsAnswers/Geography/players.txt");
-        }
+        file = new File("src/sample/QuestionsAnswers/players.txt");
 
         try (FileWriter fileWriter = new FileWriter(file)){
+            // Guardando info jugador 2
             if(player1Man.isSelected()) fileWriter.write("Hombre;");
-            else fileWriter.write("Mujer;");
+                else fileWriter.write("Mujer;");
             fileWriter.write(player1Name.getText()+";"+getAge(player1Birthday.getValue().toString())+"\n");
-
+            // Guardando info jugador 2
             if(player2Man.isSelected()) fileWriter.write("Hombre;");
-            else fileWriter.write("Mujer;");
+                else fileWriter.write("Mujer;");
             fileWriter.write(player2Name.getText()+";"+getAge(player2Birthday.getValue().toString())+"\n");
+            fileWriter.close();
         } catch (Exception e) {}
-
     }
-
-
-
 }

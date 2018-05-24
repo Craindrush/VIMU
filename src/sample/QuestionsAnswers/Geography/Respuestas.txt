@@ -1,19 +1,19 @@
-ï»¿Sedentaria;Primitiva;*NÃ³mada;AgrÃ­cola
-Europa;*AmÃ©rica;Asia;Ãfrica
-*China;Rusia;JapÃ³n;India
+Sedentaria;Primitiva;*Nómada;Agrícola
+Europa;*América;Asia;África
+*China;Rusia;Japón;India
 225;*196;300;150
-Sao Paulo;Santiago;*Ciudad de MÃ©xico;Nueva York
+Sao Paulo;Santiago;*Ciudad de México;Nueva York
 Veracruz;*Xalapa;Ciudad Victoria;Tlacotalpan
-*RÃ­o Bravo;RÃ­o Hondo;RÃ­o Grijalva;RÃ­o Colorado
-Colima;*Tabasco;Jalisco;QuerÃ©taro
+*Río Bravo;Río Hondo;Río Grijalva;Río Colorado
+Colima;*Tabasco;Jalisco;Querétaro
 Coahuila;Chihuahua;*Durango;Monterrey
-*Amazonas;Orinoco;ParanÃº - RÃ­o de La Plata;RÃ­o PÃ­rus
-Chile;Ecuador;*PerÃº;Bolivia
+*Amazonas;Orinoco;Paranú - Río de La Plata;Río Pírus
+Chile;Ecuador;*Perú;Bolivia
 2900;*4600;7200;5500
 4;7;6;*5
-EspaÃ±ol;*Chino MandarÃ­n;InglÃ©s;Hindi
+Español;*Chino Mandarín;Inglés;Hindi
 Islas Coral, Maldivas;Barrera de Coral de Belice;*Gran Barrera de Coral, Australia;Barrera de Coral de Nueva Caledonia
 *Noruega;Rumania;Portugal;Bulgaria
-MÃ©xico,Argentina,Colombia,PerÃº;*Argentina,MÃ©xico,PerÃº,Colombia;PerÃº,MÃ©xico,Argentina,Colombia;Colombia,MÃ©xico,PerÃº,Argentina
-*Uruguay;PanamÃ¡;El Salvador;Guatemala
-Sonora, Coahuila y Durango;Chihuahua, Sonora y Durango;*Chihuahua, Sonora y Coahuila;Oaxaca, Sonora y Nuevo LeÃ³n
+México, Argentina, Colombia, Perú;*Argentina, México, Perú, Colombia;Perú, México, Argentina, Colombia;Colombia, México, Perú, Argentina
+*Uruguay;Panamá;El Salvador;Guatemala
+Sonora, Coahuila y Durango;Chihuahua, Sonora y Durango;*Chihuahua, Sonora y Coahuila;Oaxaca, Sonora y Nuevo León

@@ -4,6 +4,8 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
+import javafx.scene.control.ButtonType;
 import javafx.scene.control.Hyperlink;
 import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
@@ -11,109 +13,73 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
+import sample.classes.StageModify;
 
 import java.io.IOException;
 import java.net.URL;
+import java.util.Optional;
 import java.util.ResourceBundle;
 
 public class MenuController{
 
-    @FXML
-    private ResourceBundle resources;
+    @FXML   private ImageView minimize;
+    @FXML   private ImageView close;
+    @FXML   private ImageView home;
+    @FXML   private ImageView matematicas;
+    @FXML   private ImageView spanish;
+    @FXML   private ImageView geografia;
+    @FXML   private Hyperlink rankingMath;
+    @FXML   private Hyperlink rankingSpanish;
+    @FXML   private Hyperlink rankingGeo;
 
-    @FXML
-    private URL location;
+    private StageModify stageModify;
 
-    @FXML
-    private Label title;
-
-    @FXML
-    private ImageView minimize;
-
-    @FXML
-    private ImageView close;
-
-    @FXML
-    private ImageView matematicas;
-
-    @FXML
-    private ImageView spanish;
-
-    @FXML
-    private ImageView geografia;
-
-    @FXML
-    private Label labelMath;
-
-    @FXML
-    private Label labelGeo;
-
-    @FXML
-    private Label labelSpanish;
-
-//    @FXML
-//    private Hyperlink howToMath;
-//
-//    @FXML
-//    private Hyperlink howToSpanish;
-//
-//    @FXML
-//    private Hyperlink howToGeo;
-
-    @FXML
-    private Label subtitle;
+    public MenuController() {
+        stageModify = new StageModify();
+    }
 
     @FXML
     void initialize() {
+        rankingGeo.setOnAction(actionEvent -> stageModify.changeStage("/sample/view/topRankingGeo.fxml",close));
 
+        rankingMath.setOnAction(actionEvent -> stageModify.changeStage("/sample/view/topRankingMath.fxml",close));
+
+        rankingSpanish.setOnAction(actionEvent -> stageModify.changeStage("/sample/view/topRankingSpanish.fxml",close));
     }
 
-    public void closeProgram (MouseEvent mouseEvent) {
+    public void closeProgram () {
         System.exit(0);
     }
 
-    public void minimizeProgram(MouseEvent mouseEvent) {
+    public void minimizeProgram() {
         Stage stage = (Stage) minimize.getScene().getWindow();
         stage.setIconified(true);
     }
 
-    public void playMath(MouseEvent mouseEvent) {
-
-        registroUsuario("math");
-        matematicas.getScene().getWindow().hide();
+    public void playMath() {
+        stageModify.changeStage("/sample/view/mathQuiz.fxml",matematicas);
     }
 
-    public void playSpanish(MouseEvent mouseEvent) {
-        registroUsuario("spanish");
-        spanish.getScene().getWindow().hide();
-
+    public void playSpanish() {
+        stageModify.changeStage("/sample/view/spanishQuiz.fxml",spanish);
     }
 
-    public void playGeo(MouseEvent mouseEvent) {
-
-        registroUsuario("geography");
-        geografia.getScene().getWindow().hide();
+    public void playGeo() {
+        stageModify.changeStage("/sample/view/geographyQuiz.fxml",geografia);
     }
 
-    private void registroUsuario(String nameQuiz) {
-        try {
-            FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(getClass().getResource("/sample/view/registro.fxml"));
-            loader.load();
+    public void returnHome() {
+        if (confirmationAlert()) stageModify.changeStage("/sample/view/bienvenida.fxml",home);
+    }
 
-            Parent root = loader.getRoot();
-            Stage stage = new Stage();
-            stage.setScene(new Scene(root));
-            stage.initStyle(StageStyle.UNDECORATED);
+    private boolean confirmationAlert() {
+        Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+        alert.setTitle("Diálogo de confirmación");
+        alert.setHeaderText("Al salir al menú principal tendrá que pasar de nuevo por el proceso de registro de usuario para poder jugar." );
+        alert.setContentText("¿Está de seguro de esta desición?");
 
-            RegistroController registroController = loader.getController();
-            registroController.setChooseQuiz(nameQuiz);
-            stage.show();
-            stage.setResizable(false);
-
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        Optional<ButtonType> resultado = alert.showAndWait();
+        if (resultado.get() == ButtonType.OK) return true;
+            else return false;
     }
 }

@@ -46,7 +46,7 @@ public class AutomaticQuiz extends Quiz implements GeneradorPreguntas {
                     numFraccion = numeros.generarTerminosFracciones("Suma");
                     // Asignando la pregunta a nuestro arraylist
                     problema.add(new Pregunta("Resuelva la siguiente suma de fracciones :\n"+
-                    numFraccion[0].imprimirFraccion()+" + "+numFraccion[1].imprimirFraccion()));
+                    "\t"+numFraccion[0].imprimirFraccion()+" + "+numFraccion[1].imprimirFraccion()));
                     // Asignando la respuesta correcta
                     problema.get(index).getListadoRespuestas()[indiceRespuesta].setCorrecta(true);
                     problema.get(index).getListadoRespuestas()[indiceRespuesta].setOpcionTexto(
@@ -64,7 +64,7 @@ public class AutomaticQuiz extends Quiz implements GeneradorPreguntas {
                 case 1: {
                     numEnteros = numeros.generarTerminosEnteros("Suma");
                     problema.add(new Pregunta("Resuelva la siguiente suma de enteros: \n"+
-                    numEnteros[0]+" + "+numEnteros[1]));
+                            "\t"+numEnteros[0]+" + "+numEnteros[1]));
 
                     problema.get(index).getListadoRespuestas()[indiceRespuesta].setCorrecta(true);
                     problema.get(index).getListadoRespuestas()[indiceRespuesta].setOpcionTexto(
@@ -82,7 +82,7 @@ public class AutomaticQuiz extends Quiz implements GeneradorPreguntas {
                 case 2: {
                     numDecimales = numeros.generarTerminosDecimales("Suma");
                     problema.add(new Pregunta("Resuelva la siguiente suma de decimales: \n"+
-                            numDecimales[0]+" + "+numDecimales[1]));
+                            "\t"+numDecimales[0]+" + "+numDecimales[1]));
 
                     problema.get(index).getListadoRespuestas()[indiceRespuesta].setCorrecta(true);
                     problema.get(index).getListadoRespuestas()[indiceRespuesta].setOpcionTexto(
@@ -103,7 +103,7 @@ public class AutomaticQuiz extends Quiz implements GeneradorPreguntas {
                     numFraccion = numeros.generarTerminosFracciones("Resta");
                     // Asignando la problema a nuestro arraylist
                     problema.add(new Pregunta("Resuelva la siguiente resta de fracciones: \n"+
-                            numFraccion[0].imprimirFraccion()+" - "+numFraccion[1].imprimirFraccion()));
+                            "\t"+numFraccion[0].imprimirFraccion()+" - "+numFraccion[1].imprimirFraccion()));
                     // Asignando la respuesta correcta
                     problema.get(index).getListadoRespuestas()[indiceRespuesta].setCorrecta(true);
                     problema.get(index).getListadoRespuestas()[indiceRespuesta].setOpcionTexto(
@@ -122,7 +122,7 @@ public class AutomaticQuiz extends Quiz implements GeneradorPreguntas {
                 case 4: {
                     numEnteros = numeros.generarTerminosEnteros("Resta");
                     problema.add(new Pregunta("Resuelva la siguiente resta de enteros: \n"+
-                            numEnteros[0]+" - "+numEnteros[1]));
+                            "\t"+numEnteros[0]+" - "+numEnteros[1]));
 
                     problema.get(index).getListadoRespuestas()[indiceRespuesta].setCorrecta(true);
                     problema.get(index).getListadoRespuestas()[indiceRespuesta].setOpcionTexto(
@@ -141,7 +141,7 @@ public class AutomaticQuiz extends Quiz implements GeneradorPreguntas {
                 case 5: {
                     numDecimales = numeros.generarTerminosDecimales("Resta");
                     problema.add(new Pregunta("Resuelva la siguiente resta de decimales: \n"+
-                            numDecimales[0]+" - "+numDecimales[1]));
+                            "\t"+numDecimales[0]+" - "+numDecimales[1]));
 
                     problema.get(index).getListadoRespuestas()[indiceRespuesta].setCorrecta(true);
                     problema.get(index).getListadoRespuestas()[indiceRespuesta].setOpcionTexto(
@@ -161,7 +161,7 @@ public class AutomaticQuiz extends Quiz implements GeneradorPreguntas {
                 case 6: {
                     numFraccion = numeros.generarTerminosFracciones("Multiplicacion");
                     problema.add(new Pregunta("Resuelva la siguiente multiplicacion de fracciones : \n" +
-                            numFraccion[0].imprimirFraccion()+" X "+numFraccion[1].imprimirFraccion()));
+                            "\t"+numFraccion[0].imprimirFraccion()+" X "+numFraccion[1].imprimirFraccion()));
 
                     problema.get(index).getListadoRespuestas()[indiceRespuesta].setCorrecta(true);
                     problema.get(index).getListadoRespuestas()[indiceRespuesta].setOpcionTexto(
@@ -180,7 +180,7 @@ public class AutomaticQuiz extends Quiz implements GeneradorPreguntas {
                 case 7: {
                     numEnteros = numeros.generarTerminosEnteros("Multiplicacion");
                     problema.add(new Pregunta("Resuelva la siguiente multiplicacion de enteros: \n"+
-                            numEnteros[0]+" X "+numEnteros[1]));
+                            "\t"+numEnteros[0]+" X "+numEnteros[1]));
 
                     problema.get(index).getListadoRespuestas()[indiceRespuesta].setCorrecta(true);
                     problema.get(index).getListadoRespuestas()[indiceRespuesta].setOpcionTexto(
@@ -199,7 +199,7 @@ public class AutomaticQuiz extends Quiz implements GeneradorPreguntas {
                 case 8: {
                     numFraccion = numeros.generarTerminosFracciones("Division");
                     problema.add(new Pregunta("Resuelva la siguiente division de fracciones : \n" +
-                            numFraccion[0].imprimirFraccion()+" ÷ "+numFraccion[1].imprimirFraccion()));
+                            "\t"+numFraccion[0].imprimirFraccion()+" ÷ "+numFraccion[1].imprimirFraccion()));
 
                     problema.get(index).getListadoRespuestas()[indiceRespuesta].setCorrecta(true);
                     problema.get(index).getListadoRespuestas()[indiceRespuesta].setOpcionTexto(
@@ -218,7 +218,7 @@ public class AutomaticQuiz extends Quiz implements GeneradorPreguntas {
                 case 9: {
                     numEnteros = numeros.generarTerminosEnteros("Division");
                     problema.add(new Pregunta("Resuelva la siguiente division de enteros: \n"+
-                            numEnteros[0]+" ÷ "+numEnteros[1]));
+                            "\t"+numEnteros[0]+" ÷ "+numEnteros[1]));
 
                     problema.get(index).getListadoRespuestas()[indiceRespuesta].setCorrecta(true);
                     problema.get(index).getListadoRespuestas()[indiceRespuesta].setOpcionTexto(
@@ -236,7 +236,7 @@ public class AutomaticQuiz extends Quiz implements GeneradorPreguntas {
                 case 10: {
                     frac = numeros.generarTerminosFracciones("Otra")[0];
                     problema.add(new Pregunta("Exprese la siguiente fracción en decimal: \n"+
-                    frac.imprimirFraccion())); //Solo usaremos el primer elemento del arreglo
+                            "\t"+frac.imprimirFraccion())); //Solo usaremos el primer elemento del arreglo
                     //para aprovechar la variable ya declarada
 
                     problema.get(index).getListadoRespuestas()[indiceRespuesta].setCorrecta(true);
@@ -255,7 +255,7 @@ public class AutomaticQuiz extends Quiz implements GeneradorPreguntas {
                 case 11: {
                     frac = numeros.genTerminosFraccionSimplif();
                     problema.add(new Pregunta("Simplifique la siguiente fracción: \n"+
-                    frac.imprimirFraccion()));
+                            "\t"+frac.imprimirFraccion()));
 
                     problema.get(index).getListadoRespuestas()[indiceRespuesta].setCorrecta(true);
                     problema.get(index).getListadoRespuestas()[indiceRespuesta].setOpcionTexto(
@@ -273,7 +273,7 @@ public class AutomaticQuiz extends Quiz implements GeneradorPreguntas {
                 case 12: {
                     frac = new Fraccion(random.nextInt(5)+1,random.nextInt(9)+1,random.nextInt(9)+1);
                     problema.add(new Pregunta("Exprese la siguiente fracción mixta en forma normal: \n"+
-                    frac.imprimirFraccionMixta()));
+                            "\t"+frac.imprimirFraccionMixta()));
 
                     problema.get(index).getListadoRespuestas()[indiceRespuesta].setCorrecta(true);
                     problema.get(index).getListadoRespuestas()[indiceRespuesta].setOpcionTexto(

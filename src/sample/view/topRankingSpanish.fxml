@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1280.0" style="-fx-background-color: #455A64 #455A64;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.RankingSpanishController">
+    <children>
+        <ImageView fx:id="minimize" fitHeight="45.0" fitWidth="45.0" layoutX="1180.0" layoutY="18.0" onMouseClicked="#minimizeProgram" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../assets/menu/Minimize.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="close" fitHeight="45.0" fitWidth="45.0" layoutX="1227.0" layoutY="18.0" onMouseClicked="#closeProgram" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../assets/menu/Close.png" />
+            </image>
+        </ImageView>
+        <Label fx:id="title" alignment="CENTER" layoutX="118.0" layoutY="31.0" prefHeight="146.0" prefWidth="1060.0" text="VIMU" textFill="WHITE">
+            <font>
+                <Font name="Roboto Regular" size="120.0" />
+            </font>
+            <effect>
+                <Glow level="0.18" />
+            </effect>
+        </Label>
+        <ImageView fx:id="back" fitHeight="45.0" fitWidth="45.0" layoutX="43.0" layoutY="18.0" onMouseClicked="#backMenu" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../assets/registroJugadores/goback.png" />
+            </image>
+        </ImageView>
+      <ImageView fitHeight="493.0" fitWidth="1200.0" layoutX="89.0" layoutY="242.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/ranking/RankingTable.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutY="176.0" prefHeight="33.0" prefWidth="1280.0" text="Videojuego Multidisciplinario" textFill="WHITE">
+         <font>
+            <Font name="Roboto Regular" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="player1Name" layoutX="247.0" layoutY="372.0">
+         <font>
+            <Font name="Roboto Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="player2Name" layoutX="247.0" layoutY="449.0">
+         <font>
+            <Font name="Roboto Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="player3Name" layoutX="247.0" layoutY="527.0">
+         <font>
+            <Font name="Roboto Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="player4Name" layoutX="246.0" layoutY="605.0">
+         <font>
+            <Font name="Roboto Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="player5Name" layoutX="247.0" layoutY="684.0">
+         <font>
+            <Font name="Roboto Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="player6Name" layoutX="787.0" layoutY="372.0">
+         <font>
+            <Font name="Roboto Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="player7Name" layoutX="787.0" layoutY="449.0">
+         <font>
+            <Font name="Roboto Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="player8Name" layoutX="787.0" layoutY="527.0">
+         <font>
+            <Font name="Roboto Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="player9Name" layoutX="786.0" layoutY="605.0">
+         <font>
+            <Font name="Roboto Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="player10Name" layoutX="787.0" layoutY="684.0">
+         <font>
+            <Font name="Roboto Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="player1Points" layoutX="447.0" layoutY="372.0">
+         <font>
+            <Font name="Roboto Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="player2Points" layoutX="447.0" layoutY="449.0">
+         <font>
+            <Font name="Roboto Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="player3Points" layoutX="447.0" layoutY="527.0">
+         <font>
+            <Font name="Roboto Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="player4Points" layoutX="446.0" layoutY="605.0">
+         <font>
+            <Font name="Roboto Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="player5Points" layoutX="447.0" layoutY="684.0">
+         <font>
+            <Font name="Roboto Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="player6Points" layoutX="1017.0" layoutY="372.0">
+         <font>
+            <Font name="Roboto Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="player7Points" layoutX="1017.0" layoutY="449.0">
+         <font>
+            <Font name="Roboto Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="player8Points" layoutX="1017.0" layoutY="527.0">
+         <font>
+            <Font name="Roboto Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="player9Points" layoutX="1016.0" layoutY="605.0">
+         <font>
+            <Font name="Roboto Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="player10Points" layoutX="1017.0" layoutY="684.0">
+         <font>
+            <Font name="Roboto Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="tituloMateria" alignment="CENTER" layoutX="89.0" layoutY="274.0" prefHeight="39.0" prefWidth="1117.0">
+         <font>
+            <Font name="Roboto Regular" size="32.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

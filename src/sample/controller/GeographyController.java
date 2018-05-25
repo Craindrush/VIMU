@@ -16,6 +16,7 @@ import javafx.stage.Stage;
 import javafx.util.Duration;
 import sample.classes.*;
 
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
 
@@ -57,16 +58,16 @@ public class GeographyController {
     @FXML
     void initialize() {
         geographyQuiz1 = new Quiz("Geografía", Dificultad.FACIL, "src/sample/QuestionsAnswers/Geography/Preguntas.txt",
-                "src/sample/QuestionsAnswers/Geography/Respuestas.txt");
+                "src/sample/QuestionsAnswers/Geography/Respuestas.txt",10,19);
         geographyQuiz2 = new Quiz("Geografía", Dificultad.FACIL, "src/sample/QuestionsAnswers/Geography/Preguntas.txt",
-                "src/sample/QuestionsAnswers/Geography/Respuestas.txt");
+                "src/sample/QuestionsAnswers/Geography/Respuestas.txt",10,19);
 
         partidaGeography = readWriteInfo.readPlayersInfo(partidaGeography,"Geografía"); // LEYENDO INFORMACION Y CREANDO CON ELLA LA PARTIDA
 
-        HashSet<Integer> questionIndex1 = geographyQuiz1.getRandomNum();
+        ArrayList<Integer> questionIndex1 = geographyQuiz1.getRandomNum();
         Iterator<Integer> iterator1 = questionIndex1.iterator();
 
-        HashSet<Integer> questionIndex2 = geographyQuiz2.getRandomNum();
+        ArrayList<Integer> questionIndex2 = geographyQuiz2.getRandomNum();
         Iterator<Integer> iterator2 = questionIndex2.iterator();
 
         // PREPARANDO EL CONTADOR
@@ -90,15 +91,15 @@ public class GeographyController {
         });
 
         opcionB.setOnAction(actionEvent -> {
-            manejoPregunta(0,counter,iterator1,iterator2);
+            manejoPregunta(1,counter,iterator1,iterator2);
         });
 
         opcionC.setOnAction(actionEvent -> {
-            manejoPregunta(0,counter,iterator1,iterator2);
+            manejoPregunta(2,counter,iterator1,iterator2);
         });
 
         opcionD.setOnAction(actionEvent -> {
-            manejoPregunta(0,counter,iterator1,iterator2);
+            manejoPregunta(3,counter,iterator1,iterator2);
         });
     }
 

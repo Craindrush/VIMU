@@ -1,7 +1,7 @@
 package sample.classes;
 
 public class Jugador {
-    public String nombre = "";
+    public String nombre;
     public int edad;
     public Puntaje puntaje;
     public String genero = "";

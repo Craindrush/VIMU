@@ -86,16 +86,18 @@ public class MathController {
             });
 
             opcionB.setOnAction(actionEvent -> {
-                manejoPregunta(0,counter);
+                manejoPregunta(1,counter);
             });
 
             opcionC.setOnAction(actionEvent -> {
-                manejoPregunta(0,counter);
+                manejoPregunta(2,counter);
             });
 
             opcionD.setOnAction(actionEvent -> {
-                manejoPregunta(0,counter);
+                manejoPregunta(3,counter);
             });
+
+            if (seconds[0] == 0) System.exit(0);
 
     }
 
@@ -123,8 +125,43 @@ public class MathController {
 
 
                 timeCount.setText(Integer.toString(seconds[0]));
-                if (seconds[0] <= 0) {
-                    time.stop(); //Para que se detenga el downtimer al llegar a 0
+                if (seconds[0] == 0) {
+                    time.stop();
+
+                    if(ronda1){
+                        paintAnswer(count+1, Color.RED);
+                        seconds[0] = 30;
+                        count++;
+                        if (count < 10) {
+                            time.play();
+                            operacionProblema.setText(mathQuiz1.getProblema().get(count).getEnunciado());
+                            opcionA.setText(mathQuiz1.getProblema().get(count).getListadoRespuestas()[0].getOpcionTexto());
+                            opcionB.setText(mathQuiz1.getProblema().get(count).getListadoRespuestas()[1].getOpcionTexto());
+                            opcionC.setText(mathQuiz1.getProblema().get(count).getListadoRespuestas()[2].getOpcionTexto());
+                            opcionD.setText(mathQuiz1.getProblema().get(count).getListadoRespuestas()[3].getOpcionTexto());
+                        }
+                        else if (count == 10) {
+                            newQuizRound(); //Reiniciando el quiz
+                            time.play();
+                        }
+                    }
+                    else if(ronda1 == false) { // Quiz para el segundo jugador
+                        paintAnswer(count+1, Color.RED);
+                        seconds[0] = 30;
+                        count++;
+                        if (count < 10) {
+                            time.play();
+                            operacionProblema.setText(mathQuiz2.getProblema().get(count).getEnunciado());
+                            opcionA.setText(mathQuiz2.getProblema().get(count).getListadoRespuestas()[0].getOpcionTexto());
+                            opcionB.setText(mathQuiz2.getProblema().get(count).getListadoRespuestas()[1].getOpcionTexto());
+                            opcionC.setText(mathQuiz2.getProblema().get(count).getListadoRespuestas()[2].getOpcionTexto());
+                            opcionD.setText(mathQuiz2.getProblema().get(count).getListadoRespuestas()[3].getOpcionTexto());
+                        }
+                        else if (count == 10) {
+                            saveMathResults();
+                            goQuizResults();
+                        }
+                    }
                 }
                 seconds[0]--;
             }

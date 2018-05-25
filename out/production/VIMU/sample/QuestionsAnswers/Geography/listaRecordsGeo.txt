@@ -1,2 +1,5 @@
+804;Omar Osuna
+544;Luigi
+496;Diego Caudillo
 0;DESCONOCIDO
 0;ANONIMO

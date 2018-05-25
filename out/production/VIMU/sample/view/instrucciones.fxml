@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1280.0" style="-fx-background-color: #B00020;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.InstruccionesController">
+    <children>
+        <ImageView fx:id="minimize" fitHeight="45.0" fitWidth="45.0" layoutX="1180.0" layoutY="18.0" onMouseClicked="#minimizeProgram" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../assets/menu/Minimize.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="close" fitHeight="45.0" fitWidth="45.0" layoutX="1227.0" layoutY="18.0" onMouseClicked="#closeProgram" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../assets/menu/Close.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="back" fitHeight="45.0" fitWidth="45.0" layoutX="43.0" layoutY="18.0" onMouseClicked="#backMenu" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../assets/registroJugadores/goback.png" />
+            </image>
+        </ImageView>
+        <Label fx:id="title" alignment="CENTER" layoutX="114.0" layoutY="31.0" prefHeight="146.0" prefWidth="1052.0" text="INSTRUCCIONES DE JUEGO" textFill="WHITE">
+            <font>
+                <Font name="Roboto Regular" size="61.0" />
+            </font>
+            <effect>
+                <Glow level="0.18" />
+            </effect>
+        </Label>
+      <ImageView fitHeight="204.0" fitWidth="340.0" layoutX="67.0" layoutY="346.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/menu/registro.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="280.0" fitWidth="340.0" layoutX="471.0" layoutY="346.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/menu/menu.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="280.0" fitWidth="340.0" layoutX="875.0" layoutY="346.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/menu/quiz.JPG" />
+         </image>
+      </ImageView>
+      <Label layoutX="66.0" layoutY="596.0" text="Regístrate junto con tu compañero " textFill="WHITE">
+         <font>
+            <Font name="Roboto Regular" size="22.0" />
+         </font></Label>
+      <Label layoutX="121.0" layoutY="266.0" text="REGÍSTRATE" textFill="WHITE">
+         <font>
+            <Font name="Roboto Black Italic" size="41.0" />
+         </font>
+      </Label>
+      <Label layoutX="532.0" layoutY="276.0" text="DE JUEGOS" textFill="WHITE">
+         <font>
+            <Font name="Roboto Black Italic" size="41.0" />
+         </font>
+      </Label>
+      <Label layoutX="910.0" layoutY="256.0" text="ELIGE UN QUIZ" textFill="WHITE">
+         <font>
+            <Font name="Roboto Black Italic" size="41.0" />
+         </font>
+      </Label>
+      <Label layoutX="472.0" layoutY="226.0" text="ACCEDE AL MENÚ" textFill="WHITE">
+         <font>
+            <Font name="Roboto Black Italic" size="41.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="626.0" text="para acceder al menú de juegos." textFill="WHITE">
+         <font>
+            <Font name="Roboto Regular" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="466.0" layoutY="596.0" text="Selecciona el quiz de tu preferencia" textFill="WHITE">
+         <font>
+            <Font name="Roboto Regular" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="486.0" layoutY="626.0" text="y compite para ver quién es el " textFill="WHITE">
+         <font>
+            <Font name="Roboto Regular" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="576.0" layoutY="656.0" text="que más sabe." textFill="WHITE">
+         <font>
+            <Font name="Roboto Regular" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="882.0" layoutY="596.0" text="Contesta las preguntas/problemas" textFill="WHITE">
+         <font>
+            <Font name="Roboto Regular" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="866.0" layoutY="626.0" text="de cada tipo de quiz y acumula puntos" textFill="WHITE">
+         <font>
+            <Font name="Roboto Regular" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="876.0" layoutY="656.0" text="para subir hasta la cima del ranking" textFill="WHITE">
+         <font>
+            <Font name="Roboto Regular" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="896.0" layoutY="686.0" text="que está disponible por materia." textFill="WHITE">
+         <font>
+            <Font name="Roboto Regular" size="22.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

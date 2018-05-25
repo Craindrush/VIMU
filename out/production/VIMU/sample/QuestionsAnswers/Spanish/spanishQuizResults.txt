@@ -1,2 +1,2 @@
-0;DESCONOCIDO
-0;ANONIMO
+876;Omar Osuna;Hombre;19
+724;Diego Caudillo;Hombre;20

@@ -17,6 +17,7 @@ import javafx.stage.Stage;
 import javafx.util.Duration;
 import sample.classes.*;
 
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
 
@@ -58,16 +59,16 @@ public class SpanishController {
     @FXML
     void initialize() {
         spanishQuiz1 = new Quiz("Español", Dificultad.FACIL, "src/sample/QuestionsAnswers/Spanish/Preguntas.txt",
-                "src/sample/QuestionsAnswers/Spanish/Respuestas.txt");
+                "src/sample/QuestionsAnswers/Spanish/Respuestas.txt",10,19);
         spanishQuiz2 = new Quiz("Español", Dificultad.FACIL, "src/sample/QuestionsAnswers/Spanish/Preguntas.txt",
-                "src/sample/QuestionsAnswers/Spanish/Respuestas.txt");
+                "src/sample/QuestionsAnswers/Spanish/Respuestas.txt",10,19);
 
         partidaSpanish = readWriteInfo.readPlayersInfo(partidaSpanish,"Español"); // LEYENDO INFORMACION Y CREANDO CON ELLA LA PARTIDA
 
-        HashSet<Integer> questionIndex1 = spanishQuiz1.getRandomNum();
+        ArrayList<Integer> questionIndex1 = spanishQuiz1.getRandomNum();
         Iterator<Integer> iterator1 = questionIndex1.iterator();
 
-        HashSet<Integer> questionIndex2 = spanishQuiz2.getRandomNum();
+        ArrayList<Integer> questionIndex2 = spanishQuiz2.getRandomNum();
         Iterator<Integer> iterator2 = questionIndex2.iterator();
 
         // PREPARANDO EL CONTADOR
@@ -91,15 +92,15 @@ public class SpanishController {
         });
 
         opcionB.setOnAction(actionEvent -> {
-            manejoPregunta(0,counter,iterator1,iterator2);
+            manejoPregunta(1,counter,iterator1,iterator2);
         });
 
         opcionC.setOnAction(actionEvent -> {
-            manejoPregunta(0,counter,iterator1,iterator2);
+            manejoPregunta(2,counter,iterator1,iterator2);
         });
 
         opcionD.setOnAction(actionEvent -> {
-            manejoPregunta(0,counter,iterator1,iterator2);
+            manejoPregunta(3,counter,iterator1,iterator2);
         });
     }
 

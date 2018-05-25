@@ -1,6 +1,7 @@
 package sample.classes;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.Iterator;
 
@@ -9,22 +10,21 @@ public class Quiz {
     protected Dificultad dificultad = Dificultad.FACIL;
     private Preguntas questions = null;
     protected ArrayList<Pregunta> problema = new ArrayList<>(); //Donde se guardaran las preguntas aleatorias
-    private HashSet<Integer> randomNum;
+    private ArrayList<Integer> randomIndex = new ArrayList<>();
 
 
     // CONSTRUCTORES PARA QUIZ NORMAL
-    public Quiz(String materia, String textoPreguntas, String textoRespuestas) {
+    public Quiz(String materia, String textoPreguntas, String textoRespuestas, int numPreguntasJuego, int numPreguntasArchivo) {
         this.materia = materia;
         this.questions = new Preguntas(textoPreguntas,textoRespuestas);
-        randomQuestionIndex(10,19);
+        randomQuestionIndex(numPreguntasJuego,numPreguntasArchivo);
     }
 
-    public Quiz(String materia, Dificultad dificultad, String textoPreguntas, String textoRespuestas) {
+    public Quiz(String materia, Dificultad dificultad, String textoPreguntas, String textoRespuestas, int numPreguntasJuego, int numPreguntasArchivo) {
         this.materia = materia;
         this.questions = new Preguntas(textoPreguntas,textoRespuestas);
         this.dificultad = dificultad;
-        this.questions = new Preguntas(textoPreguntas,textoRespuestas);
-        randomQuestionIndex(10,19);
+        randomQuestionIndex(numPreguntasJuego,numPreguntasArchivo);
     }
 
     //CONSTRUCTORES PARA AUTOMATIC QUIZ
@@ -43,20 +43,20 @@ public class Quiz {
 
     // METODO PARA SELECCIONAR PREGUNTAS ALEATORIAS
     private void randomQuestionIndex(int preguntasJuego, int numPreguntasDisponibles) {
-        int index, i=0;
-        randomNum = new HashSet<Integer>(preguntasJuego);
-        Iterator iterator;
-        // Generando indices aleatorios
-        do {
-            randomNum.add((int) (Math.random() * ((numPreguntasDisponibles - 1) + 1)));
-        } while (randomNum.size() != preguntasJuego);
+        ArrayList<Integer> randomNumber = new ArrayList<>();
+        //Llenando el AL de los indices de cada problema
+        for (int i=0; i<numPreguntasDisponibles; i++) {
+            randomNumber.add(i);
+        }
+        Collections.shuffle(randomNumber);
 
-        //Asignando a nuestro ArrayList preguntas y respuestas aleatorias
-        iterator = randomNum.iterator();
-        while(iterator.hasNext()) {
-            index =  (int) iterator.next();
-            problema.add(new Pregunta(questions.getListadoPreguntas().get(index).getEnunciado(),
-                    questions.getListadoPreguntas().get(index).getListadoRespuestas()));
+        //Utilizando los numeros shuffleleados del randomNumber para almacenarlo
+        //en el AL que contendra las preguntas y respuestas aleatorias
+        for (int j=0; j<preguntasJuego; j++) {
+            problema.add(new Pregunta(questions.getListadoPreguntas().get(randomNumber.get(j)).getEnunciado(),
+                    questions.getListadoPreguntas().get(randomNumber.get(j)).getListadoRespuestas()));
+            randomIndex.add(randomNumber.get(j));
+
         }
     }
 
@@ -80,8 +80,8 @@ public class Quiz {
         return problema;
     }
 
-    public HashSet<Integer> getRandomNum() {
-        return randomNum;
+    public ArrayList<Integer> getRandomNum() {
+        return randomIndex;
     }
 
 }
